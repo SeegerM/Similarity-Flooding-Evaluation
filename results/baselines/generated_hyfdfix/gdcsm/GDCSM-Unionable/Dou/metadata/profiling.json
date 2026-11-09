@@ -1,0 +1,74 @@
+{
+  "source": {
+    "fd": {
+      "status": "complete",
+      "key": "a686b4a019608533b2dd3ce1484721f0b8593cb599034e76a8cea1b2b7bb2ef9",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\a686b4a019608533b2dd3ce1484721f0b8593cb599034e76a8cea1b2b7bb2ef9\\profile.json",
+      "cache_hit": false,
+      "count": 182180,
+      "compatibility_omissions": [],
+      "compatibility_count": 182180
+    },
+    "ucc": {
+      "status": "complete",
+      "key": "45a78b0781344524ae9671c54727886b8fab204c0b81773133652d20b5a61618",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\45a78b0781344524ae9671c54727886b8fab204c0b81773133652d20b5a61618\\profile.json",
+      "cache_hit": false,
+      "count": 518,
+      "compatibility_omissions": [
+        "relaxed UCC not exported as an exact key"
+      ],
+      "compatibility_count": 162
+    },
+    "ind": {
+      "status": "complete",
+      "key": "1aa1b1062d6482547b94865f3afb4ab71893a7e239f37e3d083e2b843150800d",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\1aa1b1062d6482547b94865f3afb4ab71893a7e239f37e3d083e2b843150800d\\profile.json",
+      "cache_hit": false,
+      "count": 1520,
+      "compatibility_omissions": [],
+      "compatibility_count": 1520
+    },
+    "dc": {
+      "status": "not_applicable",
+      "reason": "LIMA width 179 exceeds configured cap 64"
+    }
+  },
+  "target": {
+    "fd": {
+      "status": "complete",
+      "key": "88c4698d92873752d59a59f96133c8d73a9dfa0cdac7564367a95a593ee868ef",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\88c4698d92873752d59a59f96133c8d73a9dfa0cdac7564367a95a593ee868ef\\profile.json",
+      "cache_hit": true,
+      "count": 6496,
+      "compatibility_omissions": [
+        "empty-determinant FD retained only in canonical cache"
+      ],
+      "compatibility_count": 5775
+    },
+    "ucc": {
+      "status": "complete",
+      "key": "b74348618502d29311df1252a83b478afc27408a0cf10508ebd94215c35ed123",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\b74348618502d29311df1252a83b478afc27408a0cf10508ebd94215c35ed123\\profile.json",
+      "cache_hit": true,
+      "count": 1,
+      "compatibility_omissions": [],
+      "compatibility_count": 1
+    },
+    "ind": {
+      "status": "complete",
+      "key": "68902b11cc940099e6bdde6b51fb89bf85be1fcd76fdebf0462736c709f71ea9",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\68902b11cc940099e6bdde6b51fb89bf85be1fcd76fdebf0462736c709f71ea9\\profile.json",
+      "cache_hit": true,
+      "count": 281716,
+      "compatibility_omissions": [
+        "relaxed IND not exported as an exact inclusion"
+      ],
+      "compatibility_count": 281695
+    },
+    "dc": {
+      "status": "not_applicable",
+      "reason": "LIMA width 736 exceeds configured cap 64"
+    }
+  }
+}

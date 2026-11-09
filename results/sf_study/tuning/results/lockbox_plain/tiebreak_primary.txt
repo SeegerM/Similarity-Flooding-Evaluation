@@ -1,0 +1,5 @@
+7 initial matchers, 94 scenarios in ['ChEMBL', 'OpenData', 'TPC-DI']; scenarios: lockbox
+H1 J_tf(tiebreak) - J_tf(initial): +0.0072  95% CI [+0.0044, +0.0098]  CONFIRMED
+H2 J_tf(tiebreak) - J_tf(sf): -0.0100  95% CI [-0.0160, -0.0038]  not confirmed
+H3 R_exp(tiebreak) - R_exp(initial): -0.0013  95% CI [-0.0049, +0.0021]  CONFIRMED
+   F1_Hr(tiebreak) - F1_Hr(initial): +0.0156  95% CI [+0.0127, +0.0185]  

@@ -1,0 +1,16 @@
+source_table,source_column,target_table,target_column,attribute,confidence
+allbibs,citkey,publication,pid,id,C
+titles,title,publication,title,title,C
+years,yr,written,pubyear,year,C
+notes,note,record,notes,note,L
+authors,citkey,written,pid,authlink_pub,C
+authors,autnm,author,name,name,C
+abstracts,txt,publication,abstract,abstract,C
+isbn,isbnnum,record,isbn,isbn,C
+citform,form,publication,category,entrytype,L
+journal,jrnlnm,publication,journal,journal,C
+publisher,pubnm,written,publisher,publisher,C
+booktitle,bktitlenm,publication,confinfo,booktitle,L
+booktitle,bktitlenm,publication,book,booktitle,L
+series,seriesnm,record,series,series,C
+keyword,word,descriptor,descriptor,keyword,C

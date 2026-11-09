@@ -1,0 +1,43 @@
+{
+ "rule": "best macro J_tf on all dev families, per seed, plus the best single configuration for all seeds (Amendment 2: tie-free J)",
+ "objective": "J_tf",
+ "universal": "fpC__INV_PROD__NAME__fdfull",
+ "source": "dev_plain",
+ "configurations": {
+  "constant": [
+   "fpBASIC__INV_PROD__NAME__fddamped",
+   "fpC__INV_PROD__NAME__fdfull"
+  ],
+  "kang_naughton": [
+   "fpC__INV_PROD__NAME__fddamped",
+   "fpC__INV_PROD__NAME__fdfull"
+  ],
+  "ks": [
+   "fpC__INV_PROD__NAME__fdfull"
+  ],
+  "levenshtein": [
+   "fpC__INV_PROD__NAME__fddamped",
+   "fpC__INV_PROD__NAME__fdfull"
+  ],
+  "oracle_noise050": [
+   "fpC__INV_PROD__NAME__fdfull",
+   "fpC__INV_PROD__NAME__fdoff"
+  ],
+  "pmf": [
+   "fpC__INV_PROD__ID__fdoff",
+   "fpC__INV_PROD__NAME__fdfull"
+  ],
+  "prefix_suffix": [
+   "fpC__INV_AVG__NAME__fddamped",
+   "fpC__INV_PROD__NAME__fdfull"
+  ],
+  "role_gcov": [
+   "fpC__INV_AVG__NAME__fddamped",
+   "fpC__INV_PROD__NAME__fdfull"
+  ],
+  "semstruct": [
+   "fpC__INV_PROD__ID__fdoff",
+   "fpC__INV_PROD__NAME__fdfull"
+  ]
+ }
+}

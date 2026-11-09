@@ -1,0 +1,206 @@
+family,contrast,metric,corpus,estimate,lo,hi,scenarios,clusters,matchers,clustering,verdict
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,hdxsm,0.0670983555880126,0.047289229577028975,0.08537205393372942,199,32,15,table-sharing components,confirms
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,gdcsm,-0.0004207345068777472,-0.0009499549554001954,0.00015387214483903185,10,10,15,source studies (conditional on the shared GDC target),opposite
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,madi_indep,0.10577038122371459,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,goby,0.052222303856712046,0.044296366470315755,0.06073791913029296,200,124,15,table-sharing components,confirms
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,final_indep,0.013372824953756426,,,9,2,9,schema domains,no interval (2 clusters)
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,final_controlled,0.06646023283457576,,,96,4,9,databases,no interval (4 clusters)
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,madi_products,0.06244023569023569,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 classfull,melnik_shape − melnik_shape_shuffled,J,mimic,0.00488402721088435,,,1,1,15,one scenario,no interval (1 clusters)
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,hdxsm,0.05962305712862839,0.03959612454229807,0.08305991802495587,199,32,15,table-sharing components,confirms
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,gdcsm,-0.0010548894226969985,-0.002092572671802126,-3.150892383921396e-05,10,10,15,source studies (conditional on the shared GDC target),contradicts
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,madi_indep,0.1591799952516619,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,goby,0.0893605434178991,0.08161926431741572,0.09709244854035978,200,124,15,table-sharing components,confirms
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,final_indep,0.02414060455027177,,,9,2,9,schema domains,no interval (2 clusters)
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,final_controlled,0.04212727146470283,,,96,4,9,databases,no interval (4 clusters)
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,madi_products,0.09244097643097643,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 classfull,melnik_semtype − melnik_semtype_shuffled,J,mimic,0.008118421768707496,,,1,1,15,one scenario,no interval (1 clusters)
+X82 classfull,melnik_shape − melnik,J,hdxsm,0.04963275066711124,0.03009206971858291,0.06634933117916322,199,32,15,table-sharing components,confirms
+X82 classfull,melnik_shape − melnik,J,gdcsm,-0.0009622674934005497,-0.0016208978327302813,-0.00022041458224827173,10,10,15,source studies (conditional on the shared GDC target),contradicts
+X82 classfull,melnik_shape − melnik,J,madi_indep,0.06512423590328821,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 classfull,melnik_shape − melnik,J,goby,0.027279353444331748,0.02169315385601588,0.032987121961519476,200,124,15,table-sharing components,confirms
+X82 classfull,melnik_shape − melnik,J,final_indep,0.003164017462509288,,,9,2,9,schema domains,no interval (2 clusters)
+X82 classfull,melnik_shape − melnik,J,final_controlled,0.03352964619027491,,,96,4,9,databases,no interval (4 clusters)
+X82 classfull,melnik_shape − melnik,J,madi_products,0.03806248677248677,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 classfull,melnik_shape − melnik,J,mimic,0.0011258775510204135,,,1,1,15,one scenario,no interval (1 clusters)
+X82 classfull,melnik_semtype − melnik,J,hdxsm,0.04860533801082979,0.03497057325978492,0.06738090090950179,199,32,15,table-sharing components,confirms
+X82 classfull,melnik_semtype − melnik,J,gdcsm,-0.001186852949370324,-0.0022692410697565885,-5.231408598229626e-05,10,10,15,source studies (conditional on the shared GDC target),contradicts
+X82 classfull,melnik_semtype − melnik,J,madi_indep,0.10328433901005794,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 classfull,melnik_semtype − melnik,J,goby,0.06774531759972473,0.06088465157265887,0.0745449434562683,200,124,15,table-sharing components,confirms
+X82 classfull,melnik_semtype − melnik,J,final_indep,0.019685386181858125,,,9,2,9,schema domains,no interval (2 clusters)
+X82 classfull,melnik_semtype − melnik,J,final_controlled,0.02043421636347358,,,96,4,9,databases,no interval (4 clusters)
+X82 classfull,melnik_semtype − melnik,J,madi_products,0.05682026455026456,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 classfull,melnik_semtype − melnik,J,mimic,0.002144000000000008,,,1,1,15,one scenario,no interval (1 clusters)
+X82 parallel,fd_split − fd,J,hdxsm,-0.025453334361880034,-0.041251688814911015,-0.013819956667416344,193,32,15,table-sharing components,confirms
+X82 parallel,fd_split − fd,J,gdcsm,-0.0008480447862912844,-0.003256498146382491,0.0008387646257376813,10,10,15,source studies (conditional on the shared GDC target),agrees
+X82 parallel,fd_split − fd,J,madi_indep,0.005906119929453262,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 parallel,fd_split − fd,J,goby,-0.04024508190328769,-0.047853233697555134,-0.0332075459588265,200,124,15,table-sharing components,confirms
+X82 parallel,fd_split − fd,J,final_indep,0.000399633250759368,,,9,2,9,schema domains,no interval (2 clusters)
+X82 parallel,fd_split − fd,J,final_controlled,-0.009373257233462134,,,96,4,9,databases,no interval (4 clusters)
+X82 parallel,fd_split − fd,J,madi_products,0.005502222222222234,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 parallel,fd_split − fd,J,mimic,-0.004278421768707482,,,1,1,15,one scenario,no interval (1 clusters)
+X82 parallel,fd_split − fd,R_exp,hdxsm,-0.03923563896100139,-0.06352025555222574,-0.02168911011013816,193,32,15,table-sharing components,confirms
+X82 parallel,fd_split − fd,R_exp,gdcsm,-0.00028489909926840385,-0.002943077631742711,0.0016066382749453621,10,10,15,source studies (conditional on the shared GDC target),agrees
+X82 parallel,fd_split − fd,R_exp,madi_indep,0.0002380952380952392,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 parallel,fd_split − fd,R_exp,goby,-0.06367103791633204,-0.07548242884336549,-0.05302848449358954,200,124,15,table-sharing components,confirms
+X82 parallel,fd_split − fd,R_exp,final_indep,0.00047483380816714196,,,9,2,9,schema domains,no interval (2 clusters)
+X82 parallel,fd_split − fd,R_exp,final_controlled,-0.030790722646089258,,,96,4,9,databases,no interval (4 clusters)
+X82 parallel,fd_split − fd,R_exp,madi_products,0.002666666666666668,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 parallel,fd_split − fd,R_exp,mimic,-0.0054421768707483,,,1,1,15,one scenario,no interval (1 clusters)
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,hdxsm,0.005264238163170439,-0.011471582344994092,0.024546783670757088,193,32,15,table-sharing components,opposite
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,gdcsm,5.979489027646322e-05,-0.0009071260990613134,0.0011364640589783402,10,10,15,source studies (conditional on the shared GDC target),opposite
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,madi_indep,-0.1087663126987465,,,12,4,15,table-sharing components,no interval (4 clusters)
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,goby,-0.004094112749102499,-0.009040595632763555,0.0007233263881632533,200,124,15,table-sharing components,agrees
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,final_indep,-0.00884781090990524,,,9,2,9,schema domains,no interval (2 clusters)
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,final_controlled,-0.0026023906766129376,,,96,4,9,databases,no interval (4 clusters)
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,madi_products,-0.03131256373256374,,,6,1,15,table-sharing components,no interval (1 clusters)
+"X82 e2x (FD arms, HDXSM 193)",coef_prod_fd − ucc_top1,J,mimic,0.0009757097505668846,,,1,1,15,one scenario,no interval (1 clusters)
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,hdxsm,0.016950508000433066,0.0004477526223878232,0.03292046019018811,193,32,15,table-sharing components,contradicts
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,gdcsm,0.0024053793506170307,0.0010004031588296423,0.0037313418707689587,10,10,15,source studies (conditional on the shared GDC target),contradicts
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,madi_indep,-0.12063364808345771,,,12,4,15,table-sharing components,no interval (4 clusters)
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,goby,-0.014164296954841359,-0.020448573573408648,-0.008254372183488764,200,124,15,table-sharing components,confirms
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,final_indep,-0.00453086065098016,,,9,2,9,schema domains,no interval (2 clusters)
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,final_controlled,0.011134799994882384,,,96,4,9,databases,no interval (4 clusters)
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,madi_products,0.007768314920159707,,,6,1,15,table-sharing components,no interval (1 clusters)
+"X82 e2x (FD arms, HDXSM 193)",fd_top1 − ucc_top1,J,mimic,0.018841535773835204,,,1,1,15,one scenario,no interval (1 clusters)
+X82 e2x,ucc − ucc_top1,J,hdxsm,-0.003628250776203913,-0.00970331667556487,0.0038423785699602205,199,32,15,table-sharing components,agrees
+X82 e2x,ucc − ucc_top1,J,gdcsm,-3.219966208066027e-05,-0.0002535116529262139,0.0001239336863610185,10,10,15,source studies (conditional on the shared GDC target),agrees
+X82 e2x,ucc − ucc_top1,J,madi_indep,-0.03659427489597861,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 e2x,ucc − ucc_top1,J,goby,0.00018745900177714864,-0.00023633782632771977,0.0007412210919839498,200,124,15,table-sharing components,opposite
+X82 e2x,ucc − ucc_top1,J,final_indep,0.0013205478907238927,,,9,2,9,schema domains,no interval (2 clusters)
+X82 e2x,ucc − ucc_top1,J,final_controlled,0.002264567796633317,,,96,4,9,databases,no interval (4 clusters)
+X82 e2x,ucc − ucc_top1,J,madi_products,-0.015867979687404974,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 e2x,ucc − ucc_top1,J,mimic,-0.003909841269841262,,,1,1,15,one scenario,no interval (1 clusters)
+X82 e2x,melnik_top1 − melnik,J,hdxsm,0.0030845603193042468,-0.00227904845252472,0.00826672499104544,199,32,15,table-sharing components,agrees
+X82 e2x,melnik_top1 − melnik,J,gdcsm,0.0018547917665187503,0.0007888689187996818,0.002965158249958431,10,10,15,source studies (conditional on the shared GDC target),confirms
+X82 e2x,melnik_top1 − melnik,J,madi_indep,-0.016353278899206368,,,12,4,15,table-sharing components,no interval (4 clusters)
+X82 e2x,melnik_top1 − melnik,J,goby,-0.010074255419516832,-0.012868861866826273,-0.007470062406018868,200,124,15,table-sharing components,contradicts
+X82 e2x,melnik_top1 − melnik,J,final_indep,0.002983637820896922,,,9,2,9,schema domains,no interval (2 clusters)
+X82 e2x,melnik_top1 − melnik,J,final_controlled,0.008698921407707899,,,96,4,9,databases,no interval (4 clusters)
+X82 e2x,melnik_top1 − melnik,J,madi_products,0.0074303813909293,,,6,1,15,table-sharing components,no interval (1 clusters)
+X82 e2x,melnik_top1 − melnik,J,mimic,0.010167694584835631,,,1,1,15,one scenario,no interval (1 clusters)
+X83,A_p − melnik_shape,J,hdxsm,0.02910108095429268,0.010512426586367281,0.041280848653308305,199,32,15,table-sharing components,confirms
+X83,A_p − melnik_shape,J,gdcsm,-0.009849945294847517,-0.018322044238716858,0.000537491721404654,10,10,15,source studies (conditional on the shared GDC target),opposite
+X83,A_p − melnik_shape,J,madi_indep,-0.03267131039821702,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,A_p − melnik_shape,J,goby,-0.0049280856268732656,-0.01323420606869852,0.003344495589438848,200,124,15,table-sharing components,opposite
+X83,A_p − melnik_shape,J,final_indep,-0.013525515334801126,,,9,2,9,schema domains,no interval (2 clusters)
+X83,A_p − melnik_shape,J,final_controlled,0.005480491568991178,,,96,4,9,databases,no interval (4 clusters)
+X83,A_p − melnik_shape,J,madi_products,0.05108026480748406,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,A_p − melnik_shape,J,mimic,0.013987079051008851,,,1,1,15,one scenario,no interval (1 clusters)
+X83,A_s − melnik_semtype,J,hdxsm,0.0021125905648268152,-0.008407459609033004,0.009360819254126964,199,32,15,table-sharing components,agrees
+X83,A_s − melnik_semtype,J,gdcsm,-0.01034804667034336,-0.018054688261507044,-0.0016451846056836452,10,10,15,source studies (conditional on the shared GDC target),contradicts
+X83,A_s − melnik_semtype,J,madi_indep,-0.0024828334706641607,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,A_s − melnik_semtype,J,goby,-0.01021477035183135,-0.01553844064802735,-0.004980451430228168,200,124,15,table-sharing components,contradicts
+X83,A_s − melnik_semtype,J,final_indep,-0.024636934415529863,,,9,2,9,schema domains,no interval (2 clusters)
+X83,A_s − melnik_semtype,J,final_controlled,0.004426178308240663,,,96,4,9,databases,no interval (4 clusters)
+X83,A_s − melnik_semtype,J,madi_products,0.049159696969696985,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,A_s − melnik_semtype,J,mimic,0.008272654962921785,,,1,1,15,one scenario,no interval (1 clusters)
+X83,L_p − melnik_shape,J,hdxsm,0.03966642798819582,0.02101877774314872,0.05105875136678983,199,32,15,table-sharing components,confirms
+X83,L_p − melnik_shape,J,gdcsm,-0.0022315729379308183,-0.008986228155460511,0.004261141966155727,10,10,15,source studies (conditional on the shared GDC target),opposite
+X83,L_p − melnik_shape,J,madi_indep,-0.04354032139606836,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,L_p − melnik_shape,J,goby,0.012391072201081927,0.006069170079928665,0.01885831519144062,200,124,15,table-sharing components,confirms
+X83,L_p − melnik_shape,J,final_indep,0.0009057266994902229,,,9,2,9,schema domains,no interval (2 clusters)
+X83,L_p − melnik_shape,J,final_controlled,8.515892761974024e-05,,,96,4,9,databases,no interval (4 clusters)
+X83,L_p − melnik_shape,J,madi_products,0.03959080808080809,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,L_p − melnik_shape,J,mimic,0.016059757485640744,,,1,1,15,one scenario,no interval (1 clusters)
+X83,L_s − melnik_semtype,J,hdxsm,0.014927082488535177,0.005429343698050292,0.026245958185312585,199,32,15,table-sharing components,confirms
+X83,L_s − melnik_semtype,J,gdcsm,-0.014071278492361611,-0.02089602513836237,-0.006952706551381287,10,10,15,source studies (conditional on the shared GDC target),contradicts
+X83,L_s − melnik_semtype,J,madi_indep,-0.0004954281832622916,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,L_s − melnik_semtype,J,goby,0.014253378800116576,0.009641003474158801,0.01869250911477309,200,124,15,table-sharing components,confirms
+X83,L_s − melnik_semtype,J,final_indep,-0.009216571984958599,,,9,2,9,schema domains,no interval (2 clusters)
+X83,L_s − melnik_semtype,J,final_controlled,-3.763967964161719e-05,,,96,4,9,databases,no interval (4 clusters)
+X83,L_s − melnik_semtype,J,madi_products,0.044795470400430366,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,L_s − melnik_semtype,J,mimic,0.01144876584301241,,,1,1,15,one scenario,no interval (1 clusters)
+X83,A_p − A_d,J,hdxsm,0.08464217046002608,0.05736168008849138,0.10277636827862197,199,32,15,table-sharing components,confirms
+X83,A_p − A_d,J,gdcsm,-0.004910642145663535,-0.012468044492714258,0.002235143237587626,10,10,15,source studies (conditional on the shared GDC target),opposite
+X83,A_p − A_d,J,madi_indep,0.03907877276461425,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,A_p − A_d,J,goby,0.03562669777565384,0.029616962797856288,0.041862463874263275,200,124,15,table-sharing components,confirms
+X83,A_p − A_d,J,final_indep,0.017685980169256425,,,9,2,9,schema domains,no interval (2 clusters)
+X83,A_p − A_d,J,final_controlled,0.03345778928906883,,,96,4,9,databases,no interval (4 clusters)
+X83,A_p − A_d,J,madi_products,0.05904436016144784,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,A_p − A_d,J,mimic,0.01026609095875875,,,1,1,15,one scenario,no interval (1 clusters)
+X83,A_s − A_d,J,hdxsm,0.05662626741427876,0.040497070201811584,0.07649146983379829,199,32,15,table-sharing components,confirms
+X83,A_s − A_d,J,gdcsm,-0.005633328977129153,-0.00991896041170334,-0.001314662633435827,10,10,15,source studies (conditional on the shared GDC target),contradicts
+X83,A_s − A_d,J,madi_indep,0.10742735279893685,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,A_s − A_d,J,goby,0.07080597720608874,0.06276711871170547,0.07844046491739577,200,124,15,table-sharing components,confirms
+X83,A_s − A_d,J,final_indep,0.023095929807876524,,,9,2,9,schema domains,no interval (2 clusters)
+X83,A_s − A_d,J,final_controlled,0.019308046201516983,,,96,4,9,databases,no interval (4 clusters)
+X83,A_s − A_d,J,madi_products,0.07588157010143853,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,A_s − A_d,J,mimic,0.005569789319651279,,,1,1,15,one scenario,no interval (1 clusters)
+X83,A_d − melnik_shape,J,hdxsm,-0.0555410895057334,-0.07678897442309132,-0.03139198856793856,199,32,15,table-sharing components,report
+X83,A_d − melnik_shape,J,gdcsm,-0.004939303149183984,-0.011598219608357777,0.002099124751876635,10,10,15,source studies (conditional on the shared GDC target),report
+X83,A_d − melnik_shape,J,madi_indep,-0.07175008316283125,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,A_d − melnik_shape,J,goby,-0.040554783402527106,-0.04888306537456401,-0.03266015992293865,200,124,15,table-sharing components,report
+X83,A_d − melnik_shape,J,final_indep,-0.03121149550405755,,,9,2,9,schema domains,no interval (2 clusters)
+X83,A_d − melnik_shape,J,final_controlled,-0.027977297720077652,,,96,4,9,databases,no interval (4 clusters)
+X83,A_d − melnik_shape,J,madi_products,-0.007964095353963774,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,A_d − melnik_shape,J,mimic,0.0037209880922500983,,,1,1,15,one scenario,no interval (1 clusters)
+X83,A_d − melnik_semtype,J,hdxsm,-0.054513676849451936,-0.07710430358458568,-0.0363288825196443,199,32,15,table-sharing components,report
+X83,A_d − melnik_semtype,J,gdcsm,-0.004714717693214209,-0.01137502812880343,0.0024003657655455976,10,10,15,source studies (conditional on the shared GDC target),report
+X83,A_d − melnik_semtype,J,madi_indep,-0.10991018626960102,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,A_d − melnik_semtype,J,goby,-0.08102074755792009,-0.08986255581814541,-0.07214806316365498,200,124,15,table-sharing components,report
+X83,A_d − melnik_semtype,J,final_indep,-0.04773286422340639,,,9,2,9,schema domains,no interval (2 clusters)
+X83,A_d − melnik_semtype,J,final_controlled,-0.014881867893276321,,,96,4,9,databases,no interval (4 clusters)
+X83,A_d − melnik_semtype,J,madi_products,-0.026721873131741555,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,A_d − melnik_semtype,J,mimic,0.002702865643270505,,,1,1,15,one scenario,no interval (1 clusters)
+X83,B_p − melnik_shape,J,hdxsm,0.03657204992085367,0.019860276716033326,0.04511829539925819,199,32,15,table-sharing components,confirms
+X83,B_p − melnik_shape,J,gdcsm,-0.0014360272381957208,-0.007681176451992073,0.004523571373729744,10,10,15,source studies (conditional on the shared GDC target),opposite
+X83,B_p − melnik_shape,J,madi_indep,-0.01791514600420248,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,B_p − melnik_shape,J,goby,0.01022219318956057,0.004404684841072547,0.016256696920661097,200,124,15,table-sharing components,confirms
+X83,B_p − melnik_shape,J,final_indep,0.020997852228564665,,,9,2,9,schema domains,no interval (2 clusters)
+X83,B_p − melnik_shape,J,final_controlled,0.004732865229497343,,,96,4,9,databases,no interval (4 clusters)
+X83,B_p − melnik_shape,J,madi_products,0.04316377104377104,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,B_p − melnik_shape,J,mimic,0.02030541496598637,,,1,1,15,one scenario,no interval (1 clusters)
+X83,B_s − melnik_semtype,J,hdxsm,0.01366893967563128,0.00551074859267679,0.023018900581170385,199,32,15,table-sharing components,confirms
+X83,B_s − melnik_semtype,J,gdcsm,-0.01281908452886634,-0.019314779600411298,-0.006358773534095911,10,10,15,source studies (conditional on the shared GDC target),contradicts
+X83,B_s − melnik_semtype,J,madi_indep,0.016165423046481248,,,12,4,15,table-sharing components,no interval (4 clusters)
+X83,B_s − melnik_semtype,J,goby,0.011277566760598741,0.00727126728440099,0.015277035925059594,200,124,15,table-sharing components,confirms
+X83,B_s − melnik_semtype,J,final_indep,0.012862420570069298,,,9,2,9,schema domains,no interval (2 clusters)
+X83,B_s − melnik_semtype,J,final_controlled,0.0016102076018116296,,,96,4,9,databases,no interval (4 clusters)
+X83,B_s − melnik_semtype,J,madi_products,0.052877710437710446,,,6,1,15,table-sharing components,no interval (1 clusters)
+X83,B_s − melnik_semtype,J,mimic,0.01954775510204081,,,1,1,15,one scenario,no interval (1 clusters)
+X84,delta melnik p0,J,valentine,0.02165819051989663,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta lit_none p0,J,valentine,-0.006185733556721379,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik−lit_none p0,J,valentine,0.027843924076618017,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik p50,J,valentine,0.0032977990905952775,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta lit_none p50,J,valentine,-0.004238313172101242,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik−lit_none p50,J,valentine,0.0075361122626965175,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik p100,J,valentine,0.001978479639764527,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta lit_none p100,J,valentine,-0.0016652421079498343,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik−lit_none p100,J,valentine,0.003643721747714361,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik p200,J,valentine,-0.001517066574833192,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta lit_none p200,J,valentine,-0.00321057430193711,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik−lit_none p200,J,valentine,0.0016935077271039178,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik flat,J,valentine,0.05959750009062259,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta lit_none flat,J,valentine,0.027644124629739288,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik−lit_none flat,J,valentine,0.0319533754608833,,,20,4,3,source_id,no interval (4 clusters)
+X84,delta melnik p0,J,hdxsm,0.018980010304484048,0.007676427687937235,0.030233864750892733,20,13,3,table-sharing components,excludes 0
+X84,delta lit_none p0,J,hdxsm,0.008277126779528953,0.0015889770168178686,0.017410882005591568,20,13,3,table-sharing components,excludes 0
+X84,delta melnik−lit_none p0,J,hdxsm,0.010702883524955093,-0.00435903758219223,0.022292156925869482,20,13,3,table-sharing components,includes 0
+X84,delta melnik p50,J,hdxsm,0.0076368716484152555,0.002522785673534249,0.01349501409571331,20,13,3,table-sharing components,excludes 0
+X84,delta lit_none p50,J,hdxsm,0.002058638913717009,-0.00025272126549538736,0.004755042487921161,20,13,3,table-sharing components,includes 0
+X84,delta melnik−lit_none p50,J,hdxsm,0.0055782327346982465,0.0020984766898390944,0.009635139941492241,20,13,3,table-sharing components,excludes 0
+X84,delta melnik p100,J,hdxsm,0.004270693921599414,0.001699254031313305,0.00731163016488041,20,13,3,table-sharing components,excludes 0
+X84,delta lit_none p100,J,hdxsm,0.0008222405956951053,-0.0006092362640608255,0.00241521497803921,20,13,3,table-sharing components,includes 0
+X84,delta melnik−lit_none p100,J,hdxsm,0.0034484533259043085,0.0005816768101863386,0.0066289756353610845,20,13,3,table-sharing components,excludes 0
+X84,delta melnik p200,J,hdxsm,0.004064384211653239,0.0006683051753161593,0.009619724257960356,20,13,3,table-sharing components,excludes 0
+X84,delta lit_none p200,J,hdxsm,0.0015172730373868874,-0.0006919397316734257,0.004474969105275193,20,13,3,table-sharing components,includes 0
+X84,delta melnik−lit_none p200,J,hdxsm,0.0025471111742663513,0.0001080219356261045,0.005802380112157793,20,13,3,table-sharing components,excludes 0
+X84,delta melnik flat,J,hdxsm,0.11691487115798045,0.07315881969955458,0.16281649359864697,20,13,3,table-sharing components,excludes 0
+X84,delta lit_none flat,J,hdxsm,0.027786761234953744,0.006909642408827277,0.05416516069940094,20,13,3,table-sharing components,excludes 0
+X84,delta melnik−lit_none flat,J,hdxsm,0.08912810992302671,0.038282210332344836,0.1480675569750253,20,13,3,table-sharing components,excludes 0
+X84,delta melnik p0,J,goby,0.017538938098527208,0.003007114692995392,0.03941605771519769,20,20,3,table-sharing components,excludes 0
+X84,delta lit_none p0,J,goby,0.0014860810040679454,-0.0036693562116875762,0.00705300330381096,20,20,3,table-sharing components,includes 0
+X84,delta melnik−lit_none p0,J,goby,0.01605285709445926,0.0022709921388810693,0.03882103007072046,20,20,3,table-sharing components,excludes 0
+X84,delta melnik p50,J,goby,0.009807062577629502,-0.000552459232851382,0.02346905681080073,20,20,3,table-sharing components,includes 0
+X84,delta lit_none p50,J,goby,-0.0014788521249518667,-0.0040943408671110055,0.001242957170607957,20,20,3,table-sharing components,includes 0
+X84,delta melnik−lit_none p50,J,goby,0.011285914702581367,0.001648148148148149,0.02470571689113356,20,20,3,table-sharing components,excludes 0
+X84,delta melnik p100,J,goby,0.0034489795444331674,-0.0011156907980525788,0.008493999335484129,20,20,3,table-sharing components,includes 0
+X84,delta lit_none p100,J,goby,-0.004110083306296348,-0.01017664434175461,0.0004913981559500851,20,20,3,table-sharing components,includes 0
+X84,delta melnik−lit_none p100,J,goby,0.007559062850729515,0.0009556677890011189,0.016517396184062852,20,20,3,table-sharing components,excludes 0
+X84,delta melnik p200,J,goby,-0.0011641775026663076,-0.0054188478868864584,0.002687995037282883,20,20,3,table-sharing components,includes 0
+X84,delta lit_none p200,J,goby,-0.002221608538167517,-0.005927136725503604,0.0010642626830991144,20,20,3,table-sharing components,includes 0
+X84,delta melnik−lit_none p200,J,goby,0.0010574310355012098,-0.0006509593375273199,0.002906144781144776,20,20,3,table-sharing components,includes 0
+X84,delta melnik flat,J,goby,0.06945533926315059,0.030567231277993417,0.11353516442404059,20,20,3,table-sharing components,excludes 0
+X84,delta lit_none flat,J,goby,0.016741516260322675,0.006728983819472556,0.026996800309485765,20,20,3,table-sharing components,excludes 0
+X84,delta melnik−lit_none flat,J,goby,0.05271382300282793,0.01748444448952098,0.09627117438628315,20,20,3,table-sharing components,excludes 0

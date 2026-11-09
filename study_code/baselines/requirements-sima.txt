@@ -1,0 +1,39 @@
+# Environment for the vendored SiMa in code/SiMa.
+#
+# The authors' requirements.txt pins torch 1.7.0, dgl 0.5.3 and fasttext 0.9.2,
+# none of which have a Windows/CPython 3.10 build. These are the oldest
+# versions that do, and they keep SiMa's own API surface intact:
+#
+#   * dgl 2.2.1 is the newest release with a cp310 win_amd64 wheel, and still
+#     provides dgl.graph / dgl.batch / SAGEConv('pool') / apply_edges unchanged;
+#   * torch is held at 2.2.2 because dgl 2.2.1's wheel is built against it;
+#   * torchdata is held below 0.8 because dgl.graphbolt imports
+#     torchdata.datapipes, which 0.8 removed;
+#   * numpy stays on 1.x because dgl 2.2.1 is compiled against it.
+#
+# torchmetrics 1.x needs f1_score(..., task='binary') instead of num_classes=2
+# (patched in code/SiMa/src/train.py). fasttext is omitted: it cannot be built
+# here and only tools.get_fasttext_embeddings needs it, which SiMa's matching
+# pipeline never calls.
+#
+# Create with:
+#   python -m venv harness/.venv-sima
+#   harness/.venv-sima/Scripts/python -m pip install -r harness/requirements-sima.txt
+
+numpy==1.26.4
+torch==2.2.2
+torchdata==0.7.1
+dgl==2.2.1
+pandas==2.2.2
+scipy==1.13.1
+networkx==3.2.1
+nltk==3.8.1
+torchmetrics==1.4.0
+scikit-learn==1.5.0
+
+# Pulled in by dgl.graphbolt's import chain rather than by SiMa itself.
+pyyaml
+pydantic
+requests
+tqdm
+psutil

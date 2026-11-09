@@ -1,0 +1,9 @@
+source_table,source_column,target_table,target_column,attribute,confidence
+releases,title,discs,dtitle,title,L
+releases,released,discs,dyear,year,L
+masters,year,discs,dyear,year,L
+releases_tracklist,title,tracks,ttitle,title,C
+releases_tracklist,position,tracks,n,printed_position~ordinal,L
+releases_tracklist,release_id,tracks,discid,release_fk~disc_fk,L
+releases_genres,genre,discs,dgenre,genre,L
+masters_genres,genre,discs,dgenre,genre,L

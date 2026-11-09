@@ -1,0 +1,138 @@
+{
+ "corpus": "gdcsm",
+ "scenarios": {
+  "Clark": {
+   "src_cols": 16,
+   "tgt_cols": 736,
+   "src_rows": 999,
+   "tgt_rows": 4478,
+   "matches": 25,
+   "sha256": {
+    "Clark_source.csv": "6a1df3ca937bd7be54eb98f0619c2e913672f100c42f2d265a6b324ba92458e0",
+    "Clark_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Clark_mapping.json": "348b3c2bddfb199b18ef5aff9161b075cd24c0a6d128e0d146eb518f04d7e4e2"
+   }
+  },
+  "Krug": {
+   "src_cols": 54,
+   "tgt_cols": 736,
+   "src_rows": 122,
+   "tgt_rows": 4478,
+   "matches": 10,
+   "sha256": {
+    "Krug_source.csv": "f4f39503c86376720368421177a69411c4724b67feaebd9dcfa901bc9e78ca89",
+    "Krug_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Krug_mapping.json": "e4a189fc3bd873aa493cbb7ae0320142bf877611fa7dcf33938d2d637221d416"
+   }
+  },
+  "Vasaikar": {
+   "src_cols": 45,
+   "tgt_cols": 736,
+   "src_rows": 110,
+   "tgt_rows": 4478,
+   "matches": 20,
+   "sha256": {
+    "Vasaikar_source.csv": "542bb0f6a52fc8a4cc2d5aa2e1d9a14645144d05278ae94fcfc443a18c51f6e5",
+    "Vasaikar_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Vasaikar_mapping.json": "ad79892112bd794c14a3dd73212923ccc3f56044b90cdbbe71d3c8c544f768ac"
+   }
+  },
+  "Wang": {
+   "src_cols": 28,
+   "tgt_cols": 736,
+   "src_rows": 110,
+   "tgt_rows": 4478,
+   "matches": 27,
+   "sha256": {
+    "Wang_source.csv": "03ab124ab6d9727afa9cb414c10c222664bff4ab52ab503a2120ea9016094b10",
+    "Wang_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Wang_mapping.json": "aa766ee8a4a2ad95a16aecaa72d08f67dd855267e6c78db8954dabeae59f8b93"
+   }
+  },
+  "Huang": {
+   "src_cols": 37,
+   "tgt_cols": 736,
+   "src_rows": 110,
+   "tgt_rows": 4478,
+   "matches": 37,
+   "sha256": {
+    "Huang_source.csv": "00f1f6b2e5cd31487e6328f993ef5c025625fe967d4ff573d3b9133106b61482",
+    "Huang_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Huang_mapping.json": "e5d547d16d8fe34f56e3e7624ad952177d2474c0bf71d8baeb0cf5026452ec65"
+   }
+  },
+  "Satpathy": {
+   "src_cols": 82,
+   "tgt_cols": 736,
+   "src_rows": 210,
+   "tgt_rows": 4478,
+   "matches": 22,
+   "sha256": {
+    "Satpathy_source.csv": "f86ebf9fb32351f588250cbb5deee1464b4bd8f68d04f920313760eaa2f4fc53",
+    "Satpathy_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Satpathy_mapping.json": "63351d45a92bd9145a6c2ad9ad217c33282e696e382d6ad4a8c389b8b72470c7"
+   }
+  },
+  "Gillette": {
+   "src_cols": 67,
+   "tgt_cols": 736,
+   "src_rows": 225,
+   "tgt_rows": 4478,
+   "matches": 22,
+   "sha256": {
+    "Gillette_source.csv": "0dcd6f0ce13584305dac5cfc09734d35aac34d0a44e720c8d810b0bd6ea5e945",
+    "Gillette_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Gillette_mapping.json": "0e423ed16f6ee347d384933d4390bed6e02c2415e3d368f3dda83f6574fdd645"
+   }
+  },
+  "McDermott": {
+   "src_cols": 22,
+   "tgt_cols": 736,
+   "src_rows": 93,
+   "tgt_rows": 4478,
+   "matches": 21,
+   "sha256": {
+    "McDermott_source.csv": "4b2cfe10522fd0861b135284022b064e60093736fc3dedd3467b1f968a2a3361",
+    "McDermott_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "McDermott_mapping.json": "bc3dcb78748ded3dabed086f2d9fd9d9412177bff59f664563380eb74ddb7c36"
+   }
+  },
+  "Cao": {
+   "src_cols": 39,
+   "tgt_cols": 736,
+   "src_rows": 140,
+   "tgt_rows": 4478,
+   "matches": 43,
+   "sha256": {
+    "Cao_source.csv": "1114bdfaff7ae7a79bb27c1fb028b6d5be105872efc502b599b9b79fe1190577",
+    "Cao_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Cao_mapping.json": "3397d09fb6b2eb4c8cc17a31f1abd926d0e028a175e101fc02bfa8809bf15add"
+   }
+  },
+  "Dou": {
+   "src_cols": 179,
+   "tgt_cols": 736,
+   "src_rows": 153,
+   "tgt_rows": 4478,
+   "matches": 32,
+   "sha256": {
+    "Dou_source.csv": "4253bb0005abf578c863d965dd05934284fa507bc9126d809d145afb5ade33d1",
+    "Dou_target.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "Dou_mapping.json": "9e4b3e085a4170deafe60a356ae31c4ccfd5ee12f69096bcf7af7f150c65c1cd"
+   }
+  }
+ },
+ "skipped": [],
+ "notes": [
+  "Clark: 25 matches, 0 missing []",
+  "Krug: 10 matches, 0 missing []",
+  "Vasaikar: 20 matches, 0 missing []",
+  "Wang: 27 matches, 0 missing []",
+  "Huang: 37 matches, 0 missing []",
+  "Satpathy: 22 matches, 0 missing []",
+  "Gillette: 22 matches, 0 missing []",
+  "McDermott: 21 matches, 0 missing []",
+  "Cao: 43 matches, 0 missing []",
+  "Dou: 32 matches, 0 missing []"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "eaSmpAwCharTriChange": "-0.050",
+ "eaSmpAwLevChange": "+0.000",
+ "eaSmpAwMagChange": "-0.007",
+ "eaSmpAwPmfChange": "-0.112",
+ "eaSmpChinCharTriChange": "-0.030",
+ "eaSmpChinLevChange": "+0.000",
+ "eaSmpChinMagChange": "-0.000",
+ "eaSmpChinPmfChange": "-0.097",
+ "eaSmpTpchCharTriChange": "-0.186",
+ "eaSmpTpchLevChange": "+0.000",
+ "eaSmpTpchMagChange": "-0.036",
+ "eaSmpTpchPmfChange": "-0.258",
+ "xcConstHGoby": "0.12",
+ "xcConstHHdx": "0.33",
+ "xcConstHMadi": "0.58",
+ "xcConstHTtd": "0.19",
+ "xcConstHVal": "0.69",
+ "xcConstRVal": "0.03"
+}

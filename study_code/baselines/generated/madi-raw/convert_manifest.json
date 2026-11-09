@@ -1,0 +1,289 @@
+{
+ "corpus": "madi",
+ "importer_sha256": "27b090d58551d20f553d9a5031f3fb2dc8ff8a89019029ef7d72e6fcb385236a",
+ "scenarios": {
+  "companies__dbpedia__forbes": {
+   "src_cols": 9,
+   "tgt_cols": 7,
+   "src_rows": 10085,
+   "tgt_rows": 2000,
+   "matches": 6,
+   "sha256": {
+    "companies__dbpedia__forbes_source.csv": "c3e154fdd068d939b1724b57b4b2cd84b157a977a532646004a206cd2b418a37",
+    "companies__dbpedia__forbes_target.csv": "1b95f9a611e6500aac69bf7dea27c1e1aa2b067181cea069158119da0f6580f3",
+    "companies__dbpedia__forbes_mapping.json": "222ef1f137455c67b9a913f2655519c437f085ac00466260e6e82c993586d8d9"
+   },
+   "domain": "companies",
+   "independent": true
+  },
+  "companies__dbpedia__fullcontact": {
+   "src_cols": 9,
+   "tgt_cols": 6,
+   "src_rows": 10085,
+   "tgt_rows": 1931,
+   "matches": 6,
+   "sha256": {
+    "companies__dbpedia__fullcontact_source.csv": "c3e154fdd068d939b1724b57b4b2cd84b157a977a532646004a206cd2b418a37",
+    "companies__dbpedia__fullcontact_target.csv": "40947bea53f0ccbc8b0e159d6a0b4081678fb087c946ab8605f2d7ff621449a3",
+    "companies__dbpedia__fullcontact_mapping.json": "ab031736a43e1dc8c86867c6be1b68b0381ac19916cda726279eb1f51bd963ac"
+   },
+   "domain": "companies",
+   "independent": true
+  },
+  "companies__forbes__fullcontact": {
+   "src_cols": 7,
+   "tgt_cols": 6,
+   "src_rows": 2000,
+   "tgt_rows": 1931,
+   "matches": 3,
+   "sha256": {
+    "companies__forbes__fullcontact_source.csv": "1b95f9a611e6500aac69bf7dea27c1e1aa2b067181cea069158119da0f6580f3",
+    "companies__forbes__fullcontact_target.csv": "40947bea53f0ccbc8b0e159d6a0b4081678fb087c946ab8605f2d7ff621449a3",
+    "companies__forbes__fullcontact_mapping.json": "e15744a590706e79babb6d9c5d9918610821853ff8763beb4f6b92d033e09c1d"
+   },
+   "domain": "companies",
+   "independent": true
+  },
+  "games__dbpedia__metacritic": {
+   "src_cols": 7,
+   "tgt_cols": 9,
+   "src_rows": 46580,
+   "tgt_rows": 20494,
+   "matches": 6,
+   "sha256": {
+    "games__dbpedia__metacritic_source.csv": "c446e5725a6b811d3e2c0ff72786a18870be8318ae2563a61baa691ceeb25c8a",
+    "games__dbpedia__metacritic_target.csv": "993c97556f392ade544d49f96aa91778c5ab969f9b159c7f3b8bc66528e64a32",
+    "games__dbpedia__metacritic_mapping.json": "7cf67f33efe96277a0f832e7e4adc6d46b8c52d4a02c9043028f7eecec68ef7f"
+   },
+   "domain": "games",
+   "independent": true
+  },
+  "games__dbpedia__sales": {
+   "src_cols": 7,
+   "tgt_cols": 11,
+   "src_rows": 46580,
+   "tgt_rows": 7877,
+   "matches": 6,
+   "sha256": {
+    "games__dbpedia__sales_source.csv": "c446e5725a6b811d3e2c0ff72786a18870be8318ae2563a61baa691ceeb25c8a",
+    "games__dbpedia__sales_target.csv": "59a2b85186420a7c5b68816e36fe2c4401d90b3be6ffe46c87d03249fca03462",
+    "games__dbpedia__sales_mapping.json": "2b785b2d8828607034ed5a06ac38367c3a3951014406a944798c3bea90003513"
+   },
+   "domain": "games",
+   "independent": true
+  },
+  "games__metacritic__sales": {
+   "src_cols": 9,
+   "tgt_cols": 11,
+   "src_rows": 20494,
+   "tgt_rows": 7877,
+   "matches": 9,
+   "sha256": {
+    "games__metacritic__sales_source.csv": "993c97556f392ade544d49f96aa91778c5ab969f9b159c7f3b8bc66528e64a32",
+    "games__metacritic__sales_target.csv": "59a2b85186420a7c5b68816e36fe2c4401d90b3be6ffe46c87d03249fca03462",
+    "games__metacritic__sales_mapping.json": "7fbdf80f5b93601835275002277230dfc245324c04bfb1650403eccdb5499a37"
+   },
+   "domain": "games",
+   "independent": true
+  },
+  "music__discogs__lastfm": {
+   "src_cols": 9,
+   "tgt_cols": 5,
+   "src_rows": 22627,
+   "tgt_rows": 9865,
+   "matches": 5,
+   "sha256": {
+    "music__discogs__lastfm_source.csv": "0b8749f958ffa69fdee31fc750e14d0323c6aec73a5a0483cc8f8f76b265ebfc",
+    "music__discogs__lastfm_target.csv": "a0656365132a55a485a99713ba16b90110c82d72b2538b6e0b7521dcb21d8aed",
+    "music__discogs__lastfm_mapping.json": "34c71573c861940df7aaa78c3a1067bb72a7abcd8896a5747b7130b2905416c4"
+   },
+   "domain": "music",
+   "independent": true
+  },
+  "music__discogs__musicbrainz": {
+   "src_cols": 9,
+   "tgt_cols": 7,
+   "src_rows": 22627,
+   "tgt_rows": 4763,
+   "matches": 7,
+   "sha256": {
+    "music__discogs__musicbrainz_source.csv": "0b8749f958ffa69fdee31fc750e14d0323c6aec73a5a0483cc8f8f76b265ebfc",
+    "music__discogs__musicbrainz_target.csv": "91553ec6d880b367a685b061e6d53b8ea154d5356adec500541675d814104867",
+    "music__discogs__musicbrainz_mapping.json": "d243b2e60579338c1d2887ca5e8ae9e7e3ab42b748a299a3d11f2d3a7a8edcf3"
+   },
+   "domain": "music",
+   "independent": true
+  },
+  "music__lastfm__musicbrainz": {
+   "src_cols": 5,
+   "tgt_cols": 7,
+   "src_rows": 9865,
+   "tgt_rows": 4763,
+   "matches": 5,
+   "sha256": {
+    "music__lastfm__musicbrainz_source.csv": "a0656365132a55a485a99713ba16b90110c82d72b2538b6e0b7521dcb21d8aed",
+    "music__lastfm__musicbrainz_target.csv": "91553ec6d880b367a685b061e6d53b8ea154d5356adec500541675d814104867",
+    "music__lastfm__musicbrainz_mapping.json": "598841da410eb2e9cc1d1d5e54b86a0f2407f5d29d452aac189e4619184c3274"
+   },
+   "domain": "music",
+   "independent": true
+  },
+  "papers__crossref__dblp": {
+   "src_cols": 14,
+   "tgt_cols": 10,
+   "src_rows": 60749,
+   "tgt_rows": 60591,
+   "matches": 10,
+   "sha256": {
+    "papers__crossref__dblp_source.csv": "8b8c112db9aa4c23235e82f7c37959a8a832bb01f15cc46b5434ad42f4d9e747",
+    "papers__crossref__dblp_target.csv": "1920d6eb4cd75362cdb5e1751d61f656fce48a8cb50b0542ee34dfdc3b1ea7c6",
+    "papers__crossref__dblp_mapping.json": "3fc27a0349fb82f050e2aa5f6921c2f517d4e8ff4ee22abfadb53de026e66ac7"
+   },
+   "domain": "papers",
+   "independent": true
+  },
+  "papers__crossref__open_alex": {
+   "src_cols": 14,
+   "tgt_cols": 13,
+   "src_rows": 60749,
+   "tgt_rows": 60719,
+   "matches": 12,
+   "sha256": {
+    "papers__crossref__open_alex_source.csv": "8b8c112db9aa4c23235e82f7c37959a8a832bb01f15cc46b5434ad42f4d9e747",
+    "papers__crossref__open_alex_target.csv": "b0168bc57243d83a4d0608b7bb1b709597662544dd6ee609fc496f3a0d85a153",
+    "papers__crossref__open_alex_mapping.json": "aa7ac3806edc75f7a1c27d523a2c4daf4a80cd267cfc9ff91bb2a1082b6aa101"
+   },
+   "domain": "papers",
+   "independent": true
+  },
+  "papers__dblp__open_alex": {
+   "src_cols": 10,
+   "tgt_cols": 13,
+   "src_rows": 60591,
+   "tgt_rows": 60719,
+   "matches": 10,
+   "sha256": {
+    "papers__dblp__open_alex_source.csv": "1920d6eb4cd75362cdb5e1751d61f656fce48a8cb50b0542ee34dfdc3b1ea7c6",
+    "papers__dblp__open_alex_target.csv": "b0168bc57243d83a4d0608b7bb1b709597662544dd6ee609fc496f3a0d85a153",
+    "papers__dblp__open_alex_mapping.json": "66c4063aa2788e2d5cd77be1c362ba9ef0907acb7f87f07a9ffd6270b26f49b0"
+   },
+   "domain": "papers",
+   "independent": true
+  },
+  "products__products_1__products_2": {
+   "src_cols": 25,
+   "tgt_cols": 25,
+   "src_rows": 812,
+   "tgt_rows": 812,
+   "matches": 25,
+   "sha256": {
+    "products__products_1__products_2_source.csv": "9b52130193753586dac259e995074ba87330c7f76a9bad450025405392194ec3",
+    "products__products_1__products_2_target.csv": "32d974358b1b5f49befdc9cdf642c7fa077bda437f421ba48e1e40b4b84297b6",
+    "products__products_1__products_2_mapping.json": "99bdae988761b456744a96fed6e5cd674973ca1d0be46d1eca576c247a3aa739"
+   },
+   "domain": "products",
+   "independent": false
+  },
+  "products__products_1__products_3": {
+   "src_cols": 25,
+   "tgt_cols": 25,
+   "src_rows": 812,
+   "tgt_rows": 762,
+   "matches": 25,
+   "sha256": {
+    "products__products_1__products_3_source.csv": "9b52130193753586dac259e995074ba87330c7f76a9bad450025405392194ec3",
+    "products__products_1__products_3_target.csv": "d2a90e50b18bbe68feceb06dfe5453c295e43596697b0600a97ca995edadca91",
+    "products__products_1__products_3_mapping.json": "ff1ad3883fefd385bdc9c26dfee331c6de526087f5ff63f646d653b8cf404d21"
+   },
+   "domain": "products",
+   "independent": false
+  },
+  "products__products_1__products_4": {
+   "src_cols": 25,
+   "tgt_cols": 25,
+   "src_rows": 812,
+   "tgt_rows": 626,
+   "matches": 25,
+   "sha256": {
+    "products__products_1__products_4_source.csv": "9b52130193753586dac259e995074ba87330c7f76a9bad450025405392194ec3",
+    "products__products_1__products_4_target.csv": "1b70f445efd0c8e9ac465582580ad2b2f2df9b1969f5bb1e24e496db7aa1994c",
+    "products__products_1__products_4_mapping.json": "ad097316654509e600feafec7ed6de9655f2ff0ae739f0f00f719fa437f1652b"
+   },
+   "domain": "products",
+   "independent": false
+  },
+  "products__products_2__products_3": {
+   "src_cols": 25,
+   "tgt_cols": 25,
+   "src_rows": 812,
+   "tgt_rows": 762,
+   "matches": 25,
+   "sha256": {
+    "products__products_2__products_3_source.csv": "32d974358b1b5f49befdc9cdf642c7fa077bda437f421ba48e1e40b4b84297b6",
+    "products__products_2__products_3_target.csv": "d2a90e50b18bbe68feceb06dfe5453c295e43596697b0600a97ca995edadca91",
+    "products__products_2__products_3_mapping.json": "168805acbd1b7ec3be4f76f978ccaa0b7052ee0eba04ab70c3bdc8f0f8380f7f"
+   },
+   "domain": "products",
+   "independent": false
+  },
+  "products__products_2__products_4": {
+   "src_cols": 25,
+   "tgt_cols": 25,
+   "src_rows": 812,
+   "tgt_rows": 626,
+   "matches": 25,
+   "sha256": {
+    "products__products_2__products_4_source.csv": "32d974358b1b5f49befdc9cdf642c7fa077bda437f421ba48e1e40b4b84297b6",
+    "products__products_2__products_4_target.csv": "1b70f445efd0c8e9ac465582580ad2b2f2df9b1969f5bb1e24e496db7aa1994c",
+    "products__products_2__products_4_mapping.json": "da8109f856be3aa6e5cccb0944cc0e076092b92f89bff765892cee1ac3161c7d"
+   },
+   "domain": "products",
+   "independent": false
+  },
+  "products__products_3__products_4": {
+   "src_cols": 25,
+   "tgt_cols": 25,
+   "src_rows": 762,
+   "tgt_rows": 626,
+   "matches": 25,
+   "sha256": {
+    "products__products_3__products_4_source.csv": "d2a90e50b18bbe68feceb06dfe5453c295e43596697b0600a97ca995edadca91",
+    "products__products_3__products_4_target.csv": "1b70f445efd0c8e9ac465582580ad2b2f2df9b1969f5bb1e24e496db7aa1994c",
+    "products__products_3__products_4_mapping.json": "311f25c0e1369ccd0c508b62512025684f42b70e40a1e16a4d46ca0fcd3ff5c6"
+   },
+   "domain": "products",
+   "independent": false
+  }
+ },
+ "skipped": [],
+ "notes": [
+  "companies/forbes: 1 of 7 columns not in the gold file (non-matches): ['url']",
+  "games/sales: 1 of 11 columns not in the gold file (non-matches): ['units_sold_mm']",
+  "papers/crossref: 2 of 14 columns not in the gold file (non-matches): ['publisher_name', 'abstract_text']",
+  "papers/open_alex: 1 of 13 columns not in the gold file (non-matches): ['topic_terms']",
+  "products: the four sources are renamed variants of one WDC Products sample (metadata: 'Source-Schema Variant k'), not independently designed schemas"
+ ],
+ "truth_sha256": {
+  "companies/sm_mapping_gold.json": "83faa87c51bbc756e131902dbd69c5a0e5b44536e13d58b4d5987b8407533ccf",
+  "companies/data/dbpedia.csv": "5259ffe5bfef4adaa6b522e5569a1a1b672ad1d1cefe431dfa5e4186c8514ba3",
+  "companies/data/forbes.csv": "8a3ed093fde05590c8151deb97f4975d0dd676aa85315d34ea45f7c49e6e5a42",
+  "companies/data/fullcontact.csv": "faa5720f3ff951aee8e920cad047af3bbce209f2f335a308e058b1c2a86e944c",
+  "games/sm_mapping_gold.json": "2d3995f18ee2f5b7ac7fc817152355ccbba2b356ef8be942f5a501173cc1b070",
+  "games/data/dbpedia.csv": "e7c7e4677e8dc95b245c83ab320428b5ec3fca65217143a7c90e7871221ea4c0",
+  "games/data/metacritic.csv": "08e1dfa5d8c00a9196a0c4de285eac44977acb37f95fdbdd4c56ebd8064a572e",
+  "games/data/sales.csv": "184d4c4fc93c0775b5f283c6cda7118f4fe5bf22fa4ca579ada06701dc3cc5fd",
+  "music/sm_mapping_gold.json": "c121fdc7b155423d5cd6cd27b772bee07cd09da8dd468eef02bb2bf17e100e32",
+  "music/data/discogs.csv": "0fab4d11a01d8ef2db38a2b7ae98279f351583bba2459e21e0c62c778f3e3a9e",
+  "music/data/lastfm.csv": "5c12950dc9ecda3c097f98de64302f32f2f9ae0c25f72ac483ee2446a007984c",
+  "music/data/musicbrainz.csv": "746c14c4ef6d0f7a4882272501591ad91c3ac2ff4552dff57656fdb2dc53445a",
+  "papers/sm_mapping_gold.json": "63377b69dac3759f4d3230e3fcefe1d03de15a21f79bf10c91e5ef63a82cddf7",
+  "papers/data/crossref.jsonl": "f217836d7d7a32f748d0a30017283cb16961a2d6f5b1de2d61de7d70b49d9e0e",
+  "papers/data/dblp.jsonl": "0da46c45e5456cd355ba35081a1d15c6f975b57ed7f8c8c79ee827ca80a32384",
+  "papers/data/open_alex.jsonl": "75dadcaf2f7fe9e47a7ff55a54b4e14898a3e28bea75ce143b78c1a31be1a37e",
+  "products/sm_mapping_gold.json": "d4bf5e006ea5d6b21bd0060218f2f7fa330c17cadf66f2e429c4472a5be78096",
+  "products/data/dataset_1.json": "898efedfeb959ef7966eed60f142d38ac7f184cf383536dc5dfc8980bc045e88",
+  "products/data/dataset_2.json": "369d016b3f13e1cc1f1f4260056f83c0ff41998c40b9d241c82f0a3503d4c5bf",
+  "products/data/dataset_3.json": "0f79da91e1b2bfd623831924bbce462d22a1b8729748ecb394888b27eabe4eb9",
+  "products/data/dataset_4.json": "3c3208364be742d261a8ac0fdb579e75db397f1130012aa108c44c90556f320d"
+ }
+}

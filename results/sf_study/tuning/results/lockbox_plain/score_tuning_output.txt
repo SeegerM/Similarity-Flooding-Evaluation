@@ -1,0 +1,13 @@
+# Tuning report: lockbox_plain
+
+3168 scored (seed, configuration, scenario) triples; families ['ChEMBL', 'Magellan', 'OpenData', 'TPC-DI']; 0 problems.
+
+Selection objective: **J_tf** (Amendment 2, tie-free); the registered J is reported next to it.
+
+## Leave-one-family-out
+
+| seed | held-out family | chosen (training families) | held-out J_tf | production | no propagation | held-out J of the chosen |
+|---|---|---|---|---|---|---|
+| constant | ChEMBL | fpBASIC__INV_PROD__NAME__fddamped | +0.1183 | +0.0976 | +0.0000 | -0.2218 |
+| constant | Magellan | fpBASIC__INV_PROD__NAME__fddamped | +0.2052 | +0.1501 | +0.0000 | -0.0667 |
+... full report: F:\research\schema matching\sf-matcher-study\tuning\results\lockbox_plain\report.md

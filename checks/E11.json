@@ -1,0 +1,22 @@
+{
+ "omEdge": "-0.264",
+ "omEdgeHi": "-0.249",
+ "omEdgeLo": "-0.278",
+ "omN": "505",
+ "omRfF": "+0.279",
+ "omRfFHi": "+0.300",
+ "omRfFLo": "+0.257",
+ "ssaJFull": "0.604",
+ "ssaJOne": "0.605",
+ "ssaJVal": "0.654",
+ "ssaN": "505",
+ "ssaOneFull": "+0.001",
+ "ssaOneFullHi": "+0.012",
+ "ssaOneFullLo": "-0.009",
+ "ssaPerm": "+0.000",
+ "ssaPermHi": "+0.001",
+ "ssaPermLo": "+0.000",
+ "ssaValFull": "+0.051",
+ "ssaValFullHi": "+0.058",
+ "ssaValFullLo": "+0.044"
+}

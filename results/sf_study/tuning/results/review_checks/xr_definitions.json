@@ -1,0 +1,58 @@
+{
+ "schematch_commit": "589c329a609985bf6068be9757c5bf6878ff7c84",
+ "facts": {
+  "xrDefIntFloat": {
+   "value": "0.8",
+   "file": "src/main/java/de/uni_marburg/schematch/matching/metadata/DatatypeMatcher.java",
+   "pattern": "Datatype\\.FLOAT\\)\\)\\s*\\{.*?return\\s+([0-9.]+)f;",
+   "sha256": "2e779929220798a64b60a14734bca7ea7774880f242e734a17aa3aee783ba5b7"
+  },
+  "xrDefStrText": {
+   "value": "0.7",
+   "file": "src/main/java/de/uni_marburg/schematch/matching/metadata/DatatypeMatcher.java",
+   "pattern": "Datatype\\.TEXT\\)\\)\\s*\\{.*?return\\s+([0-9.]+)f;",
+   "sha256": "2e779929220798a64b60a14734bca7ea7774880f242e734a17aa3aee783ba5b7"
+  },
+  "xrDefTypeShare": {
+   "value": "0.95",
+   "file": "src/main/java/de/uni_marburg/schematch/data/metadata/Datatype.java",
+   "pattern": "percentage < ([0-9.]+)\\) return STRING",
+   "sha256": "094ee1f9d33afb397deb866db1772abdeaaa704a5b53dc47fa4c7e1bf1ee96d1"
+  },
+  "xrDefMaxLhs": {
+   "value": "3",
+   "file": "src/main/java/de/uni_marburg/schematch/matching/similarityFlooding/DependencyFilter.java",
+   "pattern": "getDeterminant\\(\\)\\.size\\(\\) <= (\\d+)",
+   "sha256": "26c8050c9f85eb920dd9eb5d3ed05522632b006b0905bf04cfc7611ed65c74af"
+  },
+  "xrDefMaxUcc": {
+   "value": "3",
+   "file": "src/main/java/de/uni_marburg/schematch/matching/similarityFlooding/DependencyFilter.java",
+   "pattern": "getColumnCombination\\(\\)\\.size\\(\\) <= (\\d+)",
+   "sha256": "26c8050c9f85eb920dd9eb5d3ed05522632b006b0905bf04cfc7611ed65c74af"
+  },
+  "xrDefKeyLen": {
+   "value": "8",
+   "file": "src/main/java/de/uni_marburg/schematch/data/metadata/dependency/UniqueColumnCombination.java",
+   "pattern": "int n = (\\d+);",
+   "sha256": "97c9e041ed49370bf32cb8f86af4763f5fd5405d9b4aff14cbdb0f30a68b7715"
+  },
+  "xrDefTopkHigh": {
+   "value": "0.20",
+   "file": "src/main/java/de/uni_marburg/schematch/matching/similarityFlooding/GraphOptions.java",
+   "pattern": "\"topkHigh\", \"smx\\.sf\\.topkHigh\", \"([0-9.]+)\"",
+   "sha256": "577985dfd960987607230457562b151d96b11da7d12873354ea85314c77acee2"
+  },
+  "xrDefTopkLow": {
+   "value": "0.05",
+   "file": "src/main/java/de/uni_marburg/schematch/matching/similarityFlooding/GraphOptions.java",
+   "pattern": "\"topkLow\", \"smx\\.sf\\.topkLow\", \"([0-9.]+)\"",
+   "sha256": "577985dfd960987607230457562b151d96b11da7d12873354ea85314c77acee2"
+  }
+ },
+ "synthea": {
+  "pairs": 12,
+  "full_schemas": 3,
+  "note": "distinct table pairs (seed prefix s<k>_ removed) and whole-schema scenarios"
+ }
+}

@@ -1,0 +1,341 @@
+{
+  "format": "schematch-benchmark-catalog",
+  "format_version": 1,
+  "repository": "UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets",
+  "publication_status": "v1.0.0 published (sizes and SHA-256 digests verified); v2.0.0 prepared locally, its release attachments are not yet uploaded",
+  "framework_url": "https://github.com/UMR-Big-Data-Analytics/schematch",
+  "source_catalog": {
+    "path": "source-catalog.json",
+    "sha256": "bd4afbc588d8fbd7053624edc54751f5149b5a9ceaaaae3306168b3f682bdd4f"
+  },
+  "bundles": [
+    {
+      "id": "valentine-readable-v1",
+      "title": "Valentine readable snapshot",
+      "version": "1",
+      "source_catalog_id": "valentine",
+      "scenario_count": 390,
+      "notes": "Imported Valentine v1 snapshot; not the full release. Includes statuses for non-observation/domain-catalog tables.",
+      "manifest": {
+        "path": "manifests/valentine-readable-v1.json",
+        "sha256": "c70e0d09cab11e33dd8bf6f113313d0b2514dd9a5b33cf1c0af4f9bec58b943a"
+      },
+      "archive": {
+        "path": "dist/valentine-readable-v1.zip",
+        "sha256": "78cb9e67c788c47ee1f92545ab27cc584033bdfa76e221061f1f1950175e6641",
+        "bytes": 41815196,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/valentine-readable-v1.zip"
+      },
+      "superseded_by": "valentine-readable-v2"
+    },
+    {
+      "id": "controlled-lahman-musicbrainz-v3",
+      "title": "Controlled Lahman and MusicBrainz",
+      "version": "1",
+      "source_catalog_id": "controlled",
+      "scenario_count": 16,
+      "notes": "Sixteen generated single-table scenarios; version 3 construction.",
+      "manifest": {
+        "path": "manifests/controlled-lahman-musicbrainz-v3.json",
+        "sha256": "0b20cded0f6860695e996a57238109ecc24f72a942f4a8a79cebf6ab0dd47256"
+      },
+      "archive": {
+        "path": "dist/controlled-lahman-musicbrainz-v3.zip",
+        "sha256": "b3430b4cb2c4f9b13b333c9106f2d2014f163193d677abb6858d6a4ee6e1822b",
+        "bytes": 1147011,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/controlled-lahman-musicbrainz-v3.zip"
+      },
+      "superseded_by": "controlled-lahman-musicbrainz-v3-r2"
+    },
+    {
+      "id": "hdxsm-readable-v1",
+      "title": "HDXSM readable subset",
+      "version": "1",
+      "source_catalog_id": "hdxsm",
+      "scenario_count": 199,
+      "notes": "199-case archived subset of the 204-pair release.",
+      "manifest": {
+        "path": "manifests/hdxsm-readable-v1.json",
+        "sha256": "fd69f673e6e74500befd61168c38253a7dfe138c89180602cf21eb9fe989a92c"
+      },
+      "archive": {
+        "path": "dist/hdxsm-readable-v1.zip",
+        "sha256": "aca9afe78322c8c2923dcdc6a23c100403ee432c7c21672302182a89c62796a6",
+        "bytes": 26534867,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/hdxsm-readable-v1.zip"
+      },
+      "superseded_by": "hdxsm-readable-v2"
+    },
+    {
+      "id": "t2dsm-readable-v1",
+      "title": "T2D-SM readable subset",
+      "version": "1",
+      "source_catalog_id": "t2dsm",
+      "scenario_count": 175,
+      "notes": "175-case archived subset of the 178-pair release.",
+      "manifest": {
+        "path": "manifests/t2dsm-readable-v1.json",
+        "sha256": "3cea9e657a0fbaa1f8b82c124a619427ed24eaa61ef4e897ba9adc6de6b4889e"
+      },
+      "archive": {
+        "path": "dist/t2dsm-readable-v1.zip",
+        "sha256": "4d7267fb612a02c4259032c58cd096c1ad80289ac660b7dc117f578c5109e657",
+        "bytes": 2696950,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/t2dsm-readable-v1.zip"
+      },
+      "superseded_by": "t2dsm-readable-v2"
+    },
+    {
+      "id": "independent-sampling-v1",
+      "title": "TPC-H, AdventureWorks and Chinook independent samples",
+      "version": "1",
+      "source_catalog_id": "indep",
+      "scenario_count": 81,
+      "notes": "81 multi-table scenarios: three seeds, three overlap conditions and three schema pairings per database.",
+      "manifest": {
+        "path": "manifests/independent-sampling-v1.json",
+        "sha256": "16d6b9da6162e9b3c7e18b6e45da2d8bd73ecb239512040b3e130b9ce63376b3"
+      },
+      "archive": {
+        "path": "dist/independent-sampling-v1.zip",
+        "sha256": "054a8fcd0fe78e369e92fad9fe502624cbf831005333647716689d6c77e964c4",
+        "bytes": 3136854,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/independent-sampling-v1.zip"
+      },
+      "superseded_by": "independent-sampling-v2"
+    },
+    {
+      "id": "independent-schema-pairs-v1",
+      "title": "Independent bibliography and music schema pairs",
+      "version": "1",
+      "source_catalog_id": null,
+      "scenario_count": 9,
+      "notes": "Nine independent schema pairs; prepared matrices include certain and likely curated correspondences.",
+      "manifest": {
+        "path": "manifests/independent-schema-pairs-v1.json",
+        "sha256": "16080f41a38e9440871bf0ae9babbe2b3bdc74fe390095f59024a2075d99b67b"
+      },
+      "archive": {
+        "path": "dist/independent-schema-pairs-v1.zip",
+        "sha256": "af58dddca0843593f70dc6a7dcf9ac7c052c5528c3ff10ae0416eae727514beb",
+        "bytes": 782962,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/independent-schema-pairs-v1.zip"
+      },
+      "superseded_by": "independent-schema-pairs-v2"
+    },
+    {
+      "id": "synthea-omop-v1",
+      "title": "Synthea to OMOP",
+      "version": "1",
+      "source_catalog_id": "synthea",
+      "scenario_count": 39,
+      "notes": "39 scenarios: whole-schema and table-pair views across three seeds.",
+      "manifest": {
+        "path": "manifests/synthea-omop-v1.json",
+        "sha256": "d0c720df6ba12627edfa208a5c31db39bc32848206b0d9307b6af8efafed2811"
+      },
+      "archive": {
+        "path": "dist/synthea-omop-v1.zip",
+        "sha256": "7a691471d86b175d781140eff47db79bfb20e22b7e0f2552a18ffdc2145015e7",
+        "bytes": 411114,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/synthea-omop-v1.zip"
+      },
+      "superseded_by": "synthea-omop-v2"
+    },
+    {
+      "id": "mimic-omop-demo-v1",
+      "title": "MIMIC-IV demo to OMOP demo",
+      "version": "1",
+      "source_catalog_id": "mimic",
+      "scenario_count": 1,
+      "notes": "One multi-table scenario; both sides derive from the same demo patients.",
+      "manifest": {
+        "path": "manifests/mimic-omop-demo-v1.json",
+        "sha256": "1f18be55ede59b2eb81b3b4844c0ee08ca84f359d8384f5529d55f30fad5d1be"
+      },
+      "archive": {
+        "path": "dist/mimic-omop-demo-v1.zip",
+        "sha256": "c805fb55cbb04e5ab4ced7505a802e007d29a7740a2204c435368607219c8112",
+        "bytes": 47247,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v1.0.0/mimic-omop-demo-v1.zip"
+      },
+      "superseded_by": "mimic-omop-demo-v2"
+    },
+    {
+      "id": "valentine-readable-v2",
+      "title": "Valentine readable release",
+      "version": "2",
+      "source_catalog_id": "valentine",
+      "scenario_count": 549,
+      "notes": "549 valid scenarios of the official release; the two Wikidata Unionable and View-Unionable cases with unresolved mapping columns are excluded.",
+      "supersedes": "valentine-readable-v1",
+      "manifest": {
+        "path": "manifests/valentine-readable-v2.json",
+        "sha256": "ac311d5950e4c9b3784ccaf97b25045bc1a5054b1da73e7a8365464caec86d29"
+      },
+      "archive": {
+        "path": "dist/valentine-readable-v2.zip",
+        "sha256": "358599da802de583f713238b02433382329bdf7c9c02b6bb0ac504ac06ca2d41",
+        "bytes": 36240799,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/valentine-readable-v2.zip"
+      }
+    },
+    {
+      "id": "controlled-lahman-musicbrainz-v3-r2",
+      "title": "Controlled Lahman and MusicBrainz",
+      "version": "2",
+      "source_catalog_id": "controlled",
+      "scenario_count": 16,
+      "notes": "Sixteen generated single-table scenarios; version 3 construction, asset revision 2.",
+      "supersedes": "controlled-lahman-musicbrainz-v3",
+      "manifest": {
+        "path": "manifests/controlled-lahman-musicbrainz-v3-r2.json",
+        "sha256": "ba852139cbf28bfeea18d6364e54d444bf90caafd55f251425975ea1e64b8306"
+      },
+      "archive": {
+        "path": "dist/controlled-lahman-musicbrainz-v3-r2.zip",
+        "sha256": "b0ea9ef4ad67470ddb19fff0caba9fee5a43e6dfb1206dc4dd89eaaffc5fe330",
+        "bytes": 1259632,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/controlled-lahman-musicbrainz-v3-r2.zip"
+      }
+    },
+    {
+      "id": "hdxsm-readable-v2",
+      "title": "HDXSM readable subset",
+      "version": "2",
+      "source_catalog_id": "hdxsm",
+      "scenario_count": 199,
+      "notes": "199-case archived subset of the 204-pair release.",
+      "supersedes": "hdxsm-readable-v1",
+      "manifest": {
+        "path": "manifests/hdxsm-readable-v2.json",
+        "sha256": "1e25fb17c3bdb9e86137c38799f8c8de0a0ca53da4f0b3bc78dd9b1d6c061ee2"
+      },
+      "archive": {
+        "path": "dist/hdxsm-readable-v2.zip",
+        "sha256": "d140d6fb91d45db21f79fda882470672ebfabd949b853ad377e365268328dba1",
+        "bytes": 28645796,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/hdxsm-readable-v2.zip"
+      }
+    },
+    {
+      "id": "t2dsm-readable-v2",
+      "title": "T2D-SM readable subset",
+      "version": "2",
+      "source_catalog_id": "t2dsm",
+      "scenario_count": 175,
+      "notes": "175-case archived subset of the 178-pair release.",
+      "supersedes": "t2dsm-readable-v1",
+      "manifest": {
+        "path": "manifests/t2dsm-readable-v2.json",
+        "sha256": "cbcaa642294ab9069c9bf3843ca8b6816636214aaa999d515b9e5d346076e04a"
+      },
+      "archive": {
+        "path": "dist/t2dsm-readable-v2.zip",
+        "sha256": "786e1d5b10a992f010de00df4ab20a3a731b032e1a1ada61bff06220366bfba5",
+        "bytes": 2706902,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/t2dsm-readable-v2.zip"
+      }
+    },
+    {
+      "id": "independent-sampling-v2",
+      "title": "TPC-H, AdventureWorks and Chinook independent samples",
+      "version": "2",
+      "source_catalog_id": "indep",
+      "scenario_count": 81,
+      "notes": "81 multi-table scenarios: three seeds, three overlap conditions and three schema pairings per database.",
+      "supersedes": "independent-sampling-v1",
+      "manifest": {
+        "path": "manifests/independent-sampling-v2.json",
+        "sha256": "ffb11b966d198180c3f9f48a166b88048170657229761b0873be667b5739baa8"
+      },
+      "archive": {
+        "path": "dist/independent-sampling-v2.zip",
+        "sha256": "5f57539f1a015776b7e2ffe3e8202f58e2d43a624b16b79882e6d9e7c33af39d",
+        "bytes": 3188090,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/independent-sampling-v2.zip"
+      }
+    },
+    {
+      "id": "independent-schema-pairs-v2",
+      "title": "Independent bibliography and music schema pairs",
+      "version": "2",
+      "source_catalog_id": null,
+      "scenario_count": 9,
+      "notes": "Nine independent schema pairs; prepared matrices include certain and likely curated correspondences.",
+      "supersedes": "independent-schema-pairs-v1",
+      "manifest": {
+        "path": "manifests/independent-schema-pairs-v2.json",
+        "sha256": "9678d4fb547aeb4938a59440c83b03571308bae0a94eadff545988abc2188c74"
+      },
+      "archive": {
+        "path": "dist/independent-schema-pairs-v2.zip",
+        "sha256": "85ede29723ef9be3ff53ea7ce650ac1f595310ede15f9ef19086c26ed094a301",
+        "bytes": 784593,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/independent-schema-pairs-v2.zip"
+      }
+    },
+    {
+      "id": "synthea-omop-v2",
+      "title": "Synthea to OMOP",
+      "version": "2",
+      "source_catalog_id": "synthea",
+      "scenario_count": 39,
+      "notes": "39 scenarios: whole-schema and table-pair views across three seeds.",
+      "supersedes": "synthea-omop-v1",
+      "manifest": {
+        "path": "manifests/synthea-omop-v2.json",
+        "sha256": "301e5afb5c22af2ba78bb7ccdbece914fb8a36f6d93621cc54f9118baee4726a"
+      },
+      "archive": {
+        "path": "dist/synthea-omop-v2.zip",
+        "sha256": "8dc05873b6957b45e8add0ebe92491e0f601e7b21904bb4409b961d7dc178ab9",
+        "bytes": 415088,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/synthea-omop-v2.zip"
+      }
+    },
+    {
+      "id": "mimic-omop-demo-v2",
+      "title": "MIMIC-IV demo to OMOP demo",
+      "version": "2",
+      "source_catalog_id": "mimic",
+      "scenario_count": 1,
+      "notes": "One multi-table scenario; both sides derive from the same demo patients.",
+      "supersedes": "mimic-omop-demo-v1",
+      "manifest": {
+        "path": "manifests/mimic-omop-demo-v2.json",
+        "sha256": "bd1b4e308b5d4f0447c04036c19b22404baeba1f4aa32f207dcee18344098c70"
+      },
+      "archive": {
+        "path": "dist/mimic-omop-demo-v2.zip",
+        "sha256": "3887b737dba4db1731680fd91e474d500d63718571cd7d1d7e88a2b373502385",
+        "bytes": 50963,
+        "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/download/v2.0.0/mimic-omop-demo-v2.zip"
+      }
+    }
+  ],
+  "unbundled_sources": [
+    {
+      "id": "gdcsm",
+      "reason": "Acquisition/conversion supported by Schematch; no readable profile bundle packaged in this preparation."
+    },
+    {
+      "id": "goby",
+      "reason": "Acquisition/conversion supported by Schematch; no readable profile bundle packaged in this preparation."
+    },
+    {
+      "id": "madi",
+      "reason": "Acquisition/conversion supported by Schematch; no readable profile bundle packaged in this preparation."
+    }
+  ],
+  "release": {
+    "tag": "v2.0.0",
+    "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/tag/v2.0.0"
+  },
+  "previous_releases": [
+    {
+      "tag": "v1.0.0",
+      "url": "https://github.com/UMR-Big-Data-Analytics/Schema-Matching-Benchmark-Datasets/releases/tag/v1.0.0"
+    }
+  ]
+}

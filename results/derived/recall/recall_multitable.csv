@@ -1,0 +1,4 @@
+corpus,col,R,R_lo,R_hi,matchers
+Synthea$\to$OMOP,dt,0.0971,0.0561,0.1359,72
+Lahman/MB multi-table,dt,-0.0559,-0.0651,-0.0458,72
+Lahman/MB multi-table,tc,0.0551,0.0489,0.0614,72

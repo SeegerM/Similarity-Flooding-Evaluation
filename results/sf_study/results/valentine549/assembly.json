@@ -1,0 +1,1059 @@
+{
+ "created": "2026-11-03T00:20:56",
+ "base": 549,
+ "dropped_duplicate": [
+  "TPC-DI-Joinable",
+  "prospect_horizontal_50_ec_av"
+ ],
+ "dropped_seeds": [
+  "valentine_distribution"
+ ],
+ "selftest": [
+  "seed-study summary_tiefree.csv (plain) reproduced byte-identically: True",
+  "seed-study summary_tiefree.csv (md5) reproduced byte-identically: True",
+  "layer1_plain_scores/summary.csv reproduced byte-identically: True",
+  "layer1_plain_scores/report.md reproduced byte-identically: True",
+  "layer1nan_plain_scores/summary.csv reproduced byte-identically: True",
+  "layer1nan_plain_scores/report.md reproduced byte-identically: True"
+ ],
+ "cross_check_new168": [
+  "plain: seed columns of layer-1 melnik rows on the 168 vs the seed study's new rows: 14663 compared, 0 differ",
+  "md5: seed columns of layer-1 melnik rows on the 168 vs the seed study's new rows: 14354 compared, 0 differ"
+ ],
+ "external_pending": [
+  [
+   "xt, wp, mt, cx",
+   "x81_<c>, wide_<c>, iter_x81_<c>, x54/x55 FD arms",
+   "*fix_<corpus> batches (non-Valentine corpora; they replace the FD arms in place and are not assembled here)"
+  ]
+ ],
+ "families": {
+  "seed_plain": {
+   "status": "assembled",
+   "configs": 90,
+   "full": 87,
+   "partial": {
+    "datatype": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "extrema": {
+     "n": 401,
+     "old381": 260,
+     "new168": 141
+    },
+    "sima_tpcdi": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    }
+   },
+   "old_without_std": {},
+   "std_only_seeds": [
+    "datatype_nanfix"
+   ],
+   "optional_sources": {
+    "prismafix_p382fix_scores": "assembled (381 rows, seeds prisma)",
+    "remafill_p382fix_scores": "assembled (258 rows, seeds rema, rema_shuffled)",
+    "stdfs_pnew_scores": "assembled (840 rows, seeds learned_lofo, rema, rema_shuffled, semstruct, semstruct_lm_only)",
+    "stdnan_pnew_scores": "assembled (168 rows, seeds datatype_nanfix)",
+    "prismafs_pnew_scores": "assembled (168 rows, seeds prisma)"
+   },
+   "flags": {},
+   "checks": {
+    "seed_columns_equal_old": 33354,
+    "std_only_seed_columns_equal_seedref": 381,
+    "seed_column_mismatches": 0,
+    "duplicates": 0
+   },
+   "kind": "seed",
+   "regime": "plain",
+   "out": "results/plain549",
+   "macros": "rq1_std (Table II standard column), rq4, posthoc/penalty inputs",
+   "note": "FILE seeds on the 168 (learned_lofo, rema, rema_shuffled (possibly prisma, semstruct, semstruct_lm_only, sima_tpcdi)) from stdfs_pnew; datatype_nanfix: 381 from std_p382fix (seed columns checked against layer1nan_plain), 168 from stdnan_pnew; datatype_nanfix is not in gen_tables.META, so no paper panel uses its seed-study rows",
+   "written": [
+    "results/plain549/scores_tiefree.csv",
+    "results/plain549/summary_tiefree.csv"
+   ]
+  },
+  "layer1_plain": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "layer1_plain_scores",
+      "layer1_pnew_scores"
+     ],
+     "seed_cols_checked": 32716,
+     "optional": {
+      "layer1fs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    },
+    "fd": {
+     "status": "assembled",
+     "sources": [
+      "l1fd_p382fix_scores",
+      "layer1_pnew_scores"
+     ],
+     "seed_cols_checked": 32715,
+     "optional": {
+      "layer1fs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 178,
+   "full": 172,
+   "partial": {
+    "datatype|fd": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "extrema|fd": {
+     "n": 401,
+     "old381": 260,
+     "new168": 141
+    },
+    "extrema|melnik": {
+     "n": 402,
+     "old381": 261,
+     "new168": 141
+    },
+    "sima_tpcdi|fd": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    },
+    "sima_tpcdi|melnik": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "plain",
+   "out": "layer1_plain549_scores",
+   "macros": "rq1, rqc, layer1_<r> (Ref, Fd rows), rv{Split,Head,Null,RelNull}, abs (Val), fam/lpFdVsRexp (fd)",
+   "note": "arms attach_id, coef_prod, coef_prod_fd, lit_none are not rerun on 549 (long version only); FILE seeds on the 168 from layer1fs_pnew",
+   "written": [
+    "tuning/results/layer1_plain549_scores/scores.csv",
+    "tuning/results/layer1_plain549_scores/summary.csv",
+    "tuning/results/layer1_plain549_scores/report.md"
+   ]
+  },
+  "layer1nan_plain": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_plain_scores",
+      "layer1nan_pnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "fd": {
+     "status": "assembled",
+     "sources": [
+      "l1fd_p382fix_scores",
+      "layer1nan_pnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "attach_id": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_plain_scores",
+      "layer1nan_pnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "coef_prod": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_plain_scores",
+      "layer1nan_pnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "coef_prod_fd": {
+     "status": "assembled",
+     "sources": [
+      "l1nanfix_p382fix_scores",
+      "layer1nan_pnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "lit_none": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_plain_scores",
+      "layer1nan_pnew_scores"
+     ],
+     "seed_cols_checked": 381
+    }
+   },
+   "configs": 6,
+   "full": 6,
+   "partial": {},
+   "flags": {},
+   "kind": "layer",
+   "regime": "plain",
+   "out": "layer1nan_plain549_scores",
+   "macros": "the datatype matcher's layer-1 rows (X30 replacement in gen_figures.layer1_rows / arm_rows)",
+   "note": "datatype_nanfix: 381 fd from l1fd_p382fix (confirmed), coef_prod_fd from l1nanfix_p382fix, melnik, attach_id, coef_prod, lit_none keep the old rows; 168 from layer1nan_pnew",
+   "written": [
+    "tuning/results/layer1nan_plain549_scores/scores.csv",
+    "tuning/results/layer1nan_plain549_scores/summary.csv",
+    "tuning/results/layer1nan_plain549_scores/report.md"
+   ]
+  },
+  "layer1isr_plain": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_plain_scores",
+      "layer1isr_pnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "fd": {
+     "status": "assembled",
+     "sources": [
+      "l1fdisr_p382fix_scores",
+      "layer1isr_pnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "attach_id": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_plain_scores",
+      "layer1isr_pnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "coef_prod": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_plain_scores",
+      "layer1isr_pnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "coef_prod_fd": {
+     "status": "assembled",
+     "sources": [
+      "l1cpfdisr_p382fix_scores",
+      "layer1isr_pnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "lit_none": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_plain_scores",
+      "layer1isr_pnew_scores"
+     ],
+     "seed_cols_checked": 550
+    }
+   },
+   "configs": 12,
+   "full": 10,
+   "partial": {
+    "isresmat|lit_none": {
+     "n": 413,
+     "old381": 274,
+     "new168": 139
+    },
+    "isresmat_hybrid|lit_none": {
+     "n": 388,
+     "old381": 276,
+     "new168": 112
+    }
+   },
+   "flags": {
+    "isresmat": "not reproducible: GPU training without a fixed seed (matrices differ by up to 0.033 per cell between runs)",
+    "isresmat_hybrid": "not reproducible: GPU training without a fixed seed (matrices differ by up to 0.033 per cell between runs)"
+   },
+   "kind": "layer",
+   "regime": "plain",
+   "out": "layer1isr_plain549_scores",
+   "macros": "none in the paper path (gen_figures does not read layer1isr); kept for completeness",
+   "note": "isresmat/isresmat_hybrid: 381 fd from l1fdisr_p382fix, coef_prod_fd from l1cpfdisr_p382fix (log 2026-10-31 18:20), the non-FD arms keep the old rows; 168 from layer1isr_pnew (GPU host)",
+   "written": [
+    "tuning/results/layer1isr_plain549_scores/scores.csv",
+    "tuning/results/layer1isr_plain549_scores/summary.csv",
+    "tuning/results/layer1isr_plain549_scores/report.md"
+   ]
+  },
+  "gvfull_plain": {
+   "status": "assembled",
+   "arms": {
+    "ucc_top1": {
+     "status": "assembled",
+     "sources": [
+      "gvfull_plain_scores",
+      "gvfull_pnew_scores"
+     ],
+     "seed_cols_checked": 32716,
+     "optional": {
+      "gvfullfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    },
+    "ucc1_fd_topk": {
+     "status": "assembled",
+     "sources": [
+      "gvfull_p382fix_scores",
+      "gvfull_pnew_scores"
+     ],
+     "seed_cols_checked": 32716,
+     "optional": {
+      "gvfullfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 179,
+   "full": 172,
+   "partial": {
+    "datatype|ucc1_fd_topk": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|ucc_top1": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype_nanfix|ucc1_fd_topk": {
+     "n": 381,
+     "old381": 381,
+     "new168": 0
+    },
+    "extrema|ucc1_fd_topk": {
+     "n": 402,
+     "old381": 261,
+     "new168": 141
+    },
+    "extrema|ucc_top1": {
+     "n": 402,
+     "old381": 261,
+     "new168": 141
+    },
+    "sima_tpcdi|ucc1_fd_topk": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    },
+    "sima_tpcdi|ucc_top1": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "plain",
+   "out": "gvfull_plain549_scores",
+   "macros": "dr (explore_deproles.py), rvBeta* (beta_sweep.py), drPlRoleVsUccFdTopk",
+   "note": "report.md (explore_cluster_batches.py) and deproles must be regenerated from the assembled rows",
+   "written": [
+    "tuning/results/gvfull_plain549_scores/scores.csv"
+   ]
+  },
+  "iter_plain": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "iter_plain_scores",
+      "layer1_pnew_scores"
+     ],
+     "seed_cols_checked": 32716,
+     "optional": {
+      "layer1fs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t1": {
+     "status": "assembled",
+     "sources": [
+      "iter_plain_scores",
+      "iter_pnew_scores"
+     ],
+     "seed_cols_checked": 32836,
+     "optional": {
+      "iterfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t2": {
+     "status": "assembled",
+     "sources": [
+      "iter_plain_scores",
+      "iter_pnew_scores"
+     ],
+     "seed_cols_checked": 32836,
+     "optional": {
+      "iterfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t3": {
+     "status": "assembled",
+     "sources": [
+      "iter_plain_scores",
+      "iter_pnew_scores"
+     ],
+     "seed_cols_checked": 32836,
+     "optional": {
+      "iterfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t5": {
+     "status": "assembled",
+     "sources": [
+      "iter_plain_scores",
+      "iter_pnew_scores"
+     ],
+     "seed_cols_checked": 32836,
+     "optional": {
+      "iterfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t10": {
+     "status": "assembled",
+     "sources": [
+      "iter_plain_scores",
+      "iter_pnew_scores"
+     ],
+     "seed_cols_checked": 32836,
+     "optional": {
+      "iterfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 534,
+   "full": 521,
+   "partial": {
+    "datatype|melnik": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t1": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t10": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t2": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t3": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t5": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "extrema|melnik": {
+     "n": 402,
+     "old381": 261,
+     "new168": 141
+    },
+    "sima_tpcdi|melnik": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    },
+    "sima_tpcdi|melnik_t1": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    },
+    "sima_tpcdi|melnik_t10": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    },
+    "sima_tpcdi|melnik_t2": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    },
+    "sima_tpcdi|melnik_t3": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    },
+    "sima_tpcdi|melnik_t5": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "plain",
+   "out": "iter_plain549_scores",
+   "macros": "it, itr, ld, rlx",
+   "note": "fd_t* are not rerun (long version only); report.md (explore_iterations.py) to be regenerated",
+   "written": [
+    "tuning/results/iter_plain549_scores/scores.csv"
+   ]
+  },
+  "parallel_plain": {
+   "status": "assembled",
+   "arms": {
+    "fd_split": {
+     "status": "assembled",
+     "sources": [
+      "parallelfix_p382fix_scores",
+      "parallel_pnew_scores"
+     ],
+     "seed_cols_checked": 32715,
+     "optional": {
+      "parallelfs_pnew_scores": "assembled (840 rows)",
+      "prismafix_p382fix_scores": "assembled (381 rows)",
+      "remafill_p382fix_scores": "assembled (258 rows)",
+      "prismafs_pnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 89,
+   "full": 86,
+   "partial": {
+    "datatype|fd_split": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "extrema|fd_split": {
+     "n": 401,
+     "old381": 260,
+     "new168": 141
+    },
+    "sima_tpcdi|fd_split": {
+     "n": 33,
+     "old381": 33,
+     "new168": 0
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "plain",
+   "out": "parallel_plain549_scores",
+   "macros": "pe",
+   "note": "contrasts/report (score_parallel.py) to be regenerated",
+   "written": [
+    "tuning/results/parallel_plain549_scores/scores.csv"
+   ]
+  },
+  "seed_md5": {
+   "status": "assembled",
+   "configs": 87,
+   "full": 86,
+   "partial": {
+    "datatype": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    }
+   },
+   "old_without_std": {},
+   "std_only_seeds": [
+    "datatype_nanfix"
+   ],
+   "optional_sources": {
+    "prismafix_m382fix_scores": "assembled (381 rows, seeds prisma)",
+    "remafill_m382fix_scores": "assembled (258 rows, seeds rema, rema_shuffled)",
+    "stdfs_mnew_scores": "assembled (672 rows, seeds rema, rema_shuffled, semstruct, semstruct_lm_only)",
+    "stdnan_mnew_scores": "assembled (168 rows, seeds datatype_nanfix)",
+    "prismafs_mnew_scores": "assembled (168 rows, seeds prisma)"
+   },
+   "flags": {},
+   "checks": {
+    "seed_columns_equal_old": 32680,
+    "std_only_seed_columns_equal_seedref": 381,
+    "seed_column_mismatches": 0,
+    "duplicates": 0
+   },
+   "kind": "seed",
+   "regime": "md5",
+   "out": "results/md549",
+   "macros": "rq1_std (Table II standard column), rq4, posthoc/penalty inputs",
+   "note": "FILE seeds on the 168 (learned_lofo, rema, rema_shuffled (possibly prisma, semstruct, semstruct_lm_only, sima_tpcdi)) from stdfs_mnew; datatype_nanfix: 381 from std_m382fix (seed columns checked against layer1nan_md5), 168 from stdnan_mnew; datatype_nanfix is not in gen_tables.META, so no paper panel uses its seed-study rows",
+   "written": [
+    "results/md549/scores_tiefree.csv",
+    "results/md549/summary_tiefree.csv"
+   ]
+  },
+  "layer1_md5": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "layer1_md5_scores",
+      "layer1_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "layer1fs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    },
+    "fd": {
+     "status": "assembled",
+     "sources": [
+      "l1fd_m382fix_scores",
+      "layer1_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "layer1fs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 174,
+   "full": 172,
+   "partial": {
+    "datatype|fd": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "md5",
+   "out": "layer1_md549_scores",
+   "macros": "rq1, rqc, layer1_<r> (Ref, Fd rows), rv{Split,Head,Null,RelNull}, abs (Val), fam/lpFdVsRexp (fd)",
+   "note": "arms attach_id, coef_prod, coef_prod_fd, lit_none are not rerun on 549 (long version only); FILE seeds on the 168 from layer1fs_mnew",
+   "written": [
+    "tuning/results/layer1_md549_scores/scores.csv",
+    "tuning/results/layer1_md549_scores/summary.csv",
+    "tuning/results/layer1_md549_scores/report.md"
+   ]
+  },
+  "layer1nan_md5": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_md5_scores",
+      "layer1nan_mnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "fd": {
+     "status": "assembled",
+     "sources": [
+      "l1fd_m382fix_scores",
+      "layer1nan_mnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "attach_id": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_md5_scores",
+      "layer1nan_mnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "coef_prod": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_md5_scores",
+      "layer1nan_mnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "coef_prod_fd": {
+     "status": "assembled",
+     "sources": [
+      "l1nanfix_m382fix_scores",
+      "layer1nan_mnew_scores"
+     ],
+     "seed_cols_checked": 381
+    },
+    "lit_none": {
+     "status": "assembled",
+     "sources": [
+      "layer1nan_md5_scores",
+      "layer1nan_mnew_scores"
+     ],
+     "seed_cols_checked": 381
+    }
+   },
+   "configs": 6,
+   "full": 6,
+   "partial": {},
+   "flags": {},
+   "kind": "layer",
+   "regime": "md5",
+   "out": "layer1nan_md549_scores",
+   "macros": "the datatype matcher's layer-1 rows (X30 replacement in gen_figures.layer1_rows / arm_rows)",
+   "note": "datatype_nanfix: 381 fd from l1fd_m382fix (confirmed), coef_prod_fd from l1nanfix_m382fix, melnik, attach_id, coef_prod, lit_none keep the old rows; 168 from layer1nan_mnew",
+   "written": [
+    "tuning/results/layer1nan_md549_scores/scores.csv",
+    "tuning/results/layer1nan_md549_scores/summary.csv",
+    "tuning/results/layer1nan_md549_scores/report.md"
+   ]
+  },
+  "layer1isr_md5": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_md5_scores",
+      "layer1isr_mnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "fd": {
+     "status": "assembled",
+     "sources": [
+      "l1fdisr_m382fix_scores",
+      "layer1isr_mnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "attach_id": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_md5_scores",
+      "layer1isr_mnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "coef_prod": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_md5_scores",
+      "layer1isr_mnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "coef_prod_fd": {
+     "status": "assembled",
+     "sources": [
+      "l1cpfdisr_m382fix_scores",
+      "layer1isr_mnew_scores"
+     ],
+     "seed_cols_checked": 762
+    },
+    "lit_none": {
+     "status": "assembled",
+     "sources": [
+      "layer1isr_md5_scores",
+      "layer1isr_mnew_scores"
+     ],
+     "seed_cols_checked": 671
+    }
+   },
+   "configs": 12,
+   "full": 10,
+   "partial": {
+    "isresmat|lit_none": {
+     "n": 543,
+     "old381": 380,
+     "new168": 163
+    },
+    "isresmat_hybrid|lit_none": {
+     "n": 419,
+     "old381": 291,
+     "new168": 128
+    }
+   },
+   "flags": {
+    "isresmat": "not reproducible: GPU training without a fixed seed (matrices differ by up to 0.033 per cell between runs)",
+    "isresmat_hybrid": "not reproducible: GPU training without a fixed seed (matrices differ by up to 0.033 per cell between runs)"
+   },
+   "kind": "layer",
+   "regime": "md5",
+   "out": "layer1isr_md549_scores",
+   "macros": "none in the paper path (gen_figures does not read layer1isr); kept for completeness",
+   "note": "isresmat/isresmat_hybrid: 381 fd from l1fdisr_m382fix, coef_prod_fd from l1cpfdisr_m382fix (log 2026-10-31 18:20), the non-FD arms keep the old rows; 168 from layer1isr_mnew (GPU host)",
+   "written": [
+    "tuning/results/layer1isr_md549_scores/scores.csv",
+    "tuning/results/layer1isr_md549_scores/summary.csv",
+    "tuning/results/layer1isr_md549_scores/report.md"
+   ]
+  },
+  "gvfull_md5": {
+   "status": "assembled",
+   "arms": {
+    "ucc_top1": {
+     "status": "assembled",
+     "sources": [
+      "gvfull_md5_scores",
+      "gvfull_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "gvfullfs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 87,
+   "full": 86,
+   "partial": {
+    "datatype|ucc_top1": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "md5",
+   "out": "gvfull_md549_scores",
+   "macros": "dr (explore_deproles.py), rvBeta* (beta_sweep.py), drPlRoleVsUccFdTopk",
+   "note": "report.md (explore_cluster_batches.py) and deproles must be regenerated from the assembled rows",
+   "written": [
+    "tuning/results/gvfull_md549_scores/scores.csv"
+   ]
+  },
+  "iter_md5": {
+   "status": "assembled",
+   "arms": {
+    "melnik": {
+     "status": "assembled",
+     "sources": [
+      "iter_md5_scores",
+      "layer1_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "layer1fs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t1": {
+     "status": "assembled",
+     "sources": [
+      "iter_md5_scores",
+      "iter_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "iterfs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t2": {
+     "status": "assembled",
+     "sources": [
+      "iter_md5_scores",
+      "iter_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "iterfs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t3": {
+     "status": "assembled",
+     "sources": [
+      "iter_md5_scores",
+      "iter_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "iterfs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t5": {
+     "status": "assembled",
+     "sources": [
+      "iter_md5_scores",
+      "iter_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "iterfs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    },
+    "melnik_t10": {
+     "status": "assembled",
+     "sources": [
+      "iter_md5_scores",
+      "iter_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "iterfs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 522,
+   "full": 516,
+   "partial": {
+    "datatype|melnik": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t1": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t10": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t2": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t3": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    },
+    "datatype|melnik_t5": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "md5",
+   "out": "iter_md549_scores",
+   "macros": "it, itr, ld, rlx",
+   "note": "fd_t* are not rerun (long version only); report.md (explore_iterations.py) to be regenerated",
+   "written": [
+    "tuning/results/iter_md549_scores/scores.csv"
+   ]
+  },
+  "parallel_md5": {
+   "status": "assembled",
+   "arms": {
+    "fd_split": {
+     "status": "assembled",
+     "sources": [
+      "parallelfix_m382fix_scores",
+      "parallel_mnew_scores"
+     ],
+     "seed_cols_checked": 32422,
+     "optional": {
+      "parallelfs_mnew_scores": "assembled (672 rows)",
+      "prismafix_m382fix_scores": "assembled (381 rows)",
+      "remafill_m382fix_scores": "assembled (258 rows)",
+      "prismafs_mnew_scores": "assembled (168 rows)"
+     }
+    }
+   },
+   "configs": 87,
+   "full": 86,
+   "partial": {
+    "datatype|fd_split": {
+     "n": 369,
+     "old381": 295,
+     "new168": 74
+    }
+   },
+   "flags": {},
+   "kind": "layer",
+   "regime": "md5",
+   "out": "parallel_md549_scores",
+   "macros": "pe",
+   "note": "contrasts/report (score_parallel.py) to be regenerated",
+   "written": [
+    "tuning/results/parallel_md549_scores/scores.csv"
+   ]
+  }
+ },
+ "internal_checks": {
+  "prismafix_p382fix_scores": "382 (seed, scenario) with identical seed columns across 24 arms",
+  "remafill_p382fix_scores": "258 (seed, scenario) with identical seed columns across 24 arms",
+  "prismafix_m382fix_scores": "382 (seed, scenario) with identical seed columns across 24 arms",
+  "remafill_m382fix_scores": "258 (seed, scenario) with identical seed columns across 24 arms"
+ }
+}

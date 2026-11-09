@@ -1,0 +1,10 @@
+source_table,source_column,target_table,target_column,attribute,confidence
+release,name,discs,dtitle,title,L
+release_country,date_year,discs,dyear,year,L
+track,name,tracks,ttitle,title,C
+track,number,tracks,n,printed_position~ordinal,L
+track,position,tracks,n,ordinal,C
+track,medium,tracks,discid,disc_fk,C
+recording,name,tracks,ttitle,title,L
+cdtoc,freedb_id,discs,discid,freedb_id,C
+tag,name,discs,dgenre,tag~genre,L

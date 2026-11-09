@@ -1,0 +1,32 @@
+{
+ "_source": "A's SYNC entries 2026-10-07 03:55 and 04:10 (timing probe and cap); compiled by C. EXPLORATORY X81 'HDXSM FD-edge cap'.",
+ "pairs_total": 199,
+ "pairs_fd_arms": 193,
+ "pairs_excluded": 6,
+ "excluded": [
+  "pair_43",
+  "pair_47",
+  "pair_50",
+  "pair_52",
+  "pair_53",
+  "pair_55"
+ ],
+ "rule": "excluded from every FD-edge arm if source FDs x target FDs > T; T fixed from the probe before any HDXSM FD-arm output was read",
+ "T_product": 123796354,
+ "T_pair": "pair_75",
+ "T_pair_seconds": 890,
+ "probe_max_seconds": 1281,
+ "probe_max_pair": "pair_18 (retained)",
+ "excluded_products_min": 225000000.0,
+ "excluded_products_max": 331000000.0,
+ "excluded_rows": 100,
+ "excluded_fds_per_pair_min": 30033,
+ "excluded_fds_per_pair_max": 36945,
+ "unfinished_observation": {
+  "pair": "pair_53",
+  "seconds_without_finishing": 9900,
+  "heap": "-Xmx24g",
+  "rss_gb": "12-13",
+  "note": "levenshtein fd, killed after 2 h 45 min when the cap was set; the runtime of an excluded pair is therefore unknown, at least 9,900 s"
+ }
+}

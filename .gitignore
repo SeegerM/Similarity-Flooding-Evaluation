@@ -1,0 +1,11 @@
+# written by the experiment scripts
+/reports/
+__pycache__/
+*.py[cod]
+# score files stored gzipped (results/GZIPPED.tsv); the experiment scripts unpack them next to the .gz
+results/sf_study/results/md549/scores_tiefree.csv
+results/sf_study/results/plain549/scores_tiefree.csv
+results/sf_study/tuning/results/layer1_md549_scores/scores.csv
+results/sf_study/tuning/results/layer1_plain549_scores/scores.csv
+results/derived/recall/w4_keyterm_rows.csv
+results/derived/recall/gain_policies_rows.csv

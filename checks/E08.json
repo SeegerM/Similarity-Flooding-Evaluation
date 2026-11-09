@@ -1,0 +1,23 @@
+{
+ "svLmMEst": "+0.010",
+ "svLmMHi": "+0.012",
+ "svLmMLo": "+0.008",
+ "svLmMVerdict": "superior",
+ "svLmSEst": "-0.004",
+ "svLmSHi": "+0.002",
+ "svLmSLo": "-0.009",
+ "svLmSVerdict": "non-inferior",
+ "svN": "4",
+ "svNonInf": "4",
+ "svSup": "2",
+ "svSynEst": "+0.015",
+ "svSynHi": "+0.019",
+ "svSynLo": "+0.008",
+ "svSynVerdict": "superior",
+ "svTtdEst": "+0.002",
+ "svTtdHi": "+0.005",
+ "svTtdLo": "-0.001",
+ "svTtdVerdict": "non-inferior",
+ "tuNonConst": "0",
+ "tuSingleN": "1848"
+}

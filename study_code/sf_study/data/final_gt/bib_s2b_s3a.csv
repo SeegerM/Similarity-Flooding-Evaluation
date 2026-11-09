@@ -1,0 +1,16 @@
+source_table,source_column,target_table,target_column,attribute,confidence
+allbibs,citkey,article,articleid,id,C
+allbibs,citkey,unpublished,unpubid,id,C
+titles,title,article,title,title,C
+titles,title,unpublished,title,title,C
+years,yr,article,year,year,C
+months,mon,article,month,month,C
+pages,pgrange,article,pages,pages,C
+volumes,volnum,article,volume,volume,C
+numbers,num,article,number,number,C
+notes,note,article,note,note,C
+notes,note,unpublished,note,note,C
+authors,citkey,articleauthor,articleid,authlink_pub,C
+authors,citkey,unpubauthor,unpubid,authlink_pub,C
+authors,autnm,author,name,name,C
+abstracts,txt,article,abstract,abstract,C

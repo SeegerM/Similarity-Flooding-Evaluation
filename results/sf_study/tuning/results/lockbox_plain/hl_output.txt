@@ -1,0 +1,28 @@
+# Lockbox, registered test HL1â€“HL4 (tuning Amendment 4)
+
+94 lockbox scenarios in families with >= 5 (ChEMBL 22, OpenData 28, TPC-DI 44); 7 non-control initial matchers with every arm on all of them. J_tf (Amendment 2). Universal: `fpC__INV_PROD__ID__fdoff`. Stratified bootstrap 10000, seed 20261002; cluster bootstrap over column splits as sensitivity.
+
+| | own | universal | production | Î± = 0 | melnik (report only) |
+|---|---|---|---|---|---|
+| mean J_tf | +0.0172 | +0.0084 | -0.0298 | -0.0002 | +0.0380 |
+
+| hypothesis | contrast | mean | 95% CI (stratified) | 95% CI (clusters) | matchers > 0 | verdict |
+|---|---|---|---|---|---|---|
+| HL1 | own âˆ’ production | +0.0469 | [+0.0385, +0.0556] | [+0.0379, +0.0556] | 6 of 7 | **confirmed** |
+| HL2 | own âˆ’ alpha0 | +0.0173 | [+0.0095, +0.0246] | [+0.0055, +0.0270] | 5 of 7 | **confirmed** |
+| HL3 | own âˆ’ universal | +0.0087 | [+0.0007, +0.0161] | [-0.0026, +0.0186] | 4 of 7 | **confirmed** |
+| HL4 | universal âˆ’ production | +0.0382 | [+0.0251, +0.0518] | [+0.0221, +0.0542] | 4 of 7 | **confirmed** |
+
+## Per initial matcher (mean J_tf)
+
+| matcher | own config | own | universal | production | alpha0 | melnik |
+|---|---|---|---|---|---|---|
+| constant (control) | fpBASIC__INV_PROD__NAME__fddamped | +0.0951 | -0.0002 | +0.0753 | +0.0000 | +0.0700 |
+| kang_naughton | fpC__INV_PROD__NAME__fddamped | +0.0211 | +0.0125 | +0.0078 | +0.0000 | +0.1168 |
+| ks | fpC__INV_PROD__NAME__fdfull | -0.0075 | +0.0070 | -0.0075 | +0.0000 | +0.0334 |
+| levenshtein | fpC__INV_PROD__NAME__fddamped | +0.0050 | -0.0033 | +0.0048 | +0.0000 | +0.0104 |
+| oracle_noise050 (control) | fpC__INV_PROD__NAME__fdoff | +0.0000 | +0.0000 | -0.0945 | +0.0000 | +0.0006 |
+| pmf | fpC__INV_PROD__ID__fdoff | +0.0214 | +0.0214 | -0.0860 | +0.0000 | +0.0560 |
+| prefix_suffix | fpC__INV_AVG__NAME__fddamped | +0.0179 | -0.0048 | +0.0095 | +0.0000 | +0.0203 |
+| role_gcov | fpC__INV_AVG__NAME__fddamped | +0.0741 | +0.0382 | +0.0716 | +0.0000 | +0.0578 |
+| semstruct | fpC__INV_PROD__ID__fdoff | -0.0120 | -0.0120 | -0.2088 | -0.0013 | -0.0287 |

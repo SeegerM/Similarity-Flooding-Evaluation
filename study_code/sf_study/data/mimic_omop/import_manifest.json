@@ -1,0 +1,62 @@
+{
+ "importer_sha256": "78673327072ffc06639b37dacc544de46ccffcd5c618a8b27aee82305f0fadde",
+ "source": "<repo-root>\\sf-matcher-study\\data\\external\\mimic",
+ "pairs": {
+  "mimic_omop": {
+   "source_tables": 7,
+   "target_tables": 6,
+   "source_columns": 76,
+   "target_columns": 113,
+   "truth_rows": 49,
+   "duplicate_rows": 0,
+   "positives": 49,
+   "source_columns_with_truth": 29,
+   "target_columns_with_truth": 38,
+   "source_columns_mapped_to_several_targets": 12,
+   "target_columns_mapped_from_several_sources": 7,
+   "table_pairs_with_truth": {
+    "admissions___condition_occurrence": 2,
+    "admissions___visit_detail": 5,
+    "admissions___visit_occurrence": 8,
+    "diagnoses_icd___condition_occurrence": 2,
+    "labevents___measurement": 10,
+    "patients___person": 5,
+    "prescriptions___drug_exposure": 6,
+    "services___visit_detail": 5,
+    "transfers___visit_detail": 6
+   },
+   "truth_csv_sha256": "b00303b598f0e984ea5d20882cc950ee5f36365d5d32c78e4e7fbb8c0f8aacae",
+   "ground_truth_full_sha256": "39afd6ca5e13b563e12d1bfe140821d78ca06a763954f5ca625cda515acdc1b3",
+   "raw_tables_sha256": {
+    "source:admissions": "910b9f160ffdf1e08ea673585393f347c773ccc87d66875c627584a903ae8493",
+    "source:diagnoses_icd": "958565670c0b3903c0c12825366dc2bae8561d2d55f16feac0c949dd630ed3e4",
+    "source:labevents": "d51a4cf1ea63245abe7d544b0d50a928e9ee2ec5eb9a5ce85500aed0bd6c6dfc",
+    "source:patients": "59dcc6cd8450ddf03ad32cc7d76e41caa4c9633541715987f590c74835cf6fae",
+    "source:prescriptions": "33c392ba5b9299b08eca0a61911ba106f0aebdba26ed31b856bb9ffd49fe3654",
+    "source:services": "28306d68e952fe2cc9ef6e60b0afda93c27d7a06bee8ef39e71ccc4de5ded793",
+    "source:transfers": "41151539886d12d57159b65ffe4d7df5a7ef8ceb7cd113ea9a56fbfbfd78a87c",
+    "target:condition_occurrence": "1eb2a5a62c3cc30816fa49f92910e7d63fa55910c27b26a05e3e704ebf13f4e1",
+    "target:drug_exposure": "f3805d399ec2b44ab33c49c8ed81fa03e2092275e67d6d38397573ea0d52068f",
+    "target:measurement": "c00f9e13e0fcaee304ea90da4898bd9d075912eea8b92455516df4e975387ed1",
+    "target:person": "f816b5c57d8b13858a3c924e2cf8d30d838f2eb5e50ffcf74f0339448d0e831f",
+    "target:visit_detail": "453cc7b767e9b6755956f2b1fa2da95219a1263970014a7928468b6bc2109a69",
+    "target:visit_occurrence": "ee4f46e12beef45ae0447277b291b0b6af64f3f74207cfc48a92d15bfd5c16f2"
+   },
+   "rows": {
+    "source:admissions": 275,
+    "source:diagnoses_icd": 4506,
+    "source:labevents": 107727,
+    "source:patients": 100,
+    "source:prescriptions": 18087,
+    "source:services": 319,
+    "source:transfers": 1190,
+    "target:condition_occurrence": 16441,
+    "target:drug_exposure": 18229,
+    "target:measurement": 338550,
+    "target:person": 100,
+    "target:visit_detail": 14479,
+    "target:visit_occurrence": 852
+   }
+  }
+ }
+}

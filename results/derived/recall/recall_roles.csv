@@ -1,0 +1,3 @@
+corpus,col,J,J_lo,J_hi,R,R_lo,R_hi,matchers
+Valentine (readable),ro,0.0005,-0.0092,0.01,-0.0296,-0.0447,-0.0149,76
+Valentine (recoded),ro,0.0201,-0.005,0.0461,-0.0343,-0.0636,-0.0049,76

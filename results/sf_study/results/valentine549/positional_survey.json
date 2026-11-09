@@ -1,0 +1,3853 @@
+{
+ "totals": {
+  "scenarios": 549,
+  "pairs": 8659,
+  "off_diagonal": 10
+ },
+ "scenarios": [
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_1_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_1_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_1_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_1_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_1_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_1_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_30_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_30_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_30_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_30_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_30_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_30_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_50_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_50_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_50_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_50_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_50_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_50_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_70_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_70_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_70_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_70_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_70_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_both_50_70_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_1_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_1_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_1_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_1_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_1_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_1_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_30_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_30_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_30_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_30_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_30_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_30_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_50_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_50_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_50_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_50_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_50_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_50_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_70_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_70_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_70_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_70_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_70_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Semantically-Joinable",
+   "scenario": "assays_vertical_70_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_0_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_100_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Unionable",
+   "scenario": "assays_horizontal_50_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 23,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Magellan-Unionable",
+   "scenario": "amazon_google_exp",
+   "family": "Magellan",
+   "n_ground_truth": 4,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Magellan-Unionable",
+   "scenario": "beeradvo_ratebeer",
+   "family": "Magellan",
+   "n_ground_truth": 5,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Magellan-Unionable",
+   "scenario": "dblp_acm",
+   "family": "Magellan",
+   "n_ground_truth": 5,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Magellan-Unionable",
+   "scenario": "dblp_scholar",
+   "family": "Magellan",
+   "n_ground_truth": 5,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Magellan-Unionable",
+   "scenario": "fodors_zagats",
+   "family": "Magellan",
+   "n_ground_truth": 7,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Magellan-Unionable",
+   "scenario": "itunes_amazon",
+   "family": "Magellan",
+   "n_ground_truth": 9,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Magellan-Unionable",
+   "scenario": "walmart_amazon",
+   "family": "Magellan",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_1_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_1_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_1_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_1_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_1_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_1_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_30_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_30_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_30_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_30_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_30_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_30_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_50_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_50_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_50_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_50_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_50_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_50_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_70_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_70_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_70_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_70_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_70_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_both_50_70_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_1_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_1_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_1_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_1_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_1_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_1_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_30_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_30_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_30_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_30_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_30_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_30_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_50_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_50_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_50_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_50_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_50_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_50_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_70_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_70_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_70_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_70_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_70_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Joinable",
+   "scenario": "miller2_vertical_70_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_1_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_1_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_1_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_1_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_30_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_30_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_30_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_30_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_30_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_50_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_50_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_50_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_50_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_70_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_70_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_70_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_70_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_1_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_1_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_1_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_1_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_30_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_30_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_50_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_50_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_70_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_70_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_70_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_0_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_50_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_1_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_1_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_1_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_1_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_1_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_1_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_30_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_30_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_30_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_30_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_30_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_30_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_50_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_50_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_50_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_50_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_50_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_50_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_70_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_70_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_70_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_70_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_70_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_both_50_70_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_1_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_1_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_1_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_1_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_1_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_1_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_30_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_30_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_30_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_30_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_30_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_30_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_50_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_50_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_50_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_50_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_50_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_50_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_70_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_70_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_70_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_70_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_70_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Joinable",
+   "scenario": "prospect_vertical_70_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_1_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_1_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_1_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_1_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_1_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_1_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_30_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_30_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_30_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_30_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_30_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_50_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_50_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_50_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_50_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_50_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_70_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_70_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_70_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_70_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_70_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_70_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_1_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_1_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_1_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_1_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_1_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_1_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_30_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_30_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_30_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_30_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_30_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_30_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_50_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_50_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_50_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_50_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_50_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_50_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_70_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_70_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_70_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_70_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_70_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_vertical_70_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_100_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_1_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_30_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_50_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac1_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac1_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac2_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac4_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac4_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac5_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ac5_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-View-Unionable",
+   "scenario": "prospect_both_0_70_ec_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "Wikidata-Joinable",
+   "scenario": "musicians_joinable",
+   "family": "Wikidata",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 5
+  },
+  {
+   "dataset": "Wikidata-Semantically-Joinable",
+   "scenario": "musicians_semjoinable",
+   "family": "Wikidata",
+   "n_ground_truth": 8,
+   "n_off_diagonal": 5
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_1_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_1_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_1_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_1_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_1_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_1_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_30_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_30_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_30_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_30_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_30_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_30_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_50_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_50_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_50_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_50_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_50_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_50_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_70_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_70_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_70_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_70_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_70_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_both_50_70_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_1_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_1_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_1_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_1_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_1_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_1_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_30_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_30_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_30_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_30_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_30_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_30_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_50_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_50_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_50_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_50_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_50_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_50_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_70_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_70_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_70_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_70_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_70_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-Joinable",
+   "scenario": "assays_vertical_70_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_1_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_30_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_50_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac1_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac1_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac2_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac2_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac3_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac3_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac4_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac4_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac5_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ac5_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ec_av",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "ChEMBL-View-Unionable",
+   "scenario": "assays_both_0_70_ec_ev",
+   "family": "ChEMBL",
+   "n_ground_truth": 16,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_1_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_1_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_30_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_50_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_50_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_70_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_both_50_70_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_1_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_1_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_30_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_30_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_30_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_30_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_50_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_50_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_50_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_50_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_70_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_70_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Semantically-Joinable",
+   "scenario": "miller2_vertical_70_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-Unionable",
+   "scenario": "miller2_horizontal_100_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 51,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_1_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 1,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_30_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 15,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_50_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 25,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac1_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac1_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac2_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac2_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac3_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac3_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac4_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac4_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac5_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ac5_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ec_av",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "OpenData-View-Unionable",
+   "scenario": "miller2_both_0_70_ec_ev",
+   "family": "OpenData",
+   "n_ground_truth": 35,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_30_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 6,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Semantically-Joinable",
+   "scenario": "prospect_both_50_50_ac3_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 11,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ac3_ev",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_0_ec_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  },
+  {
+   "dataset": "TPC-DI-Unionable",
+   "scenario": "prospect_horizontal_50_ac2_av",
+   "family": "TPC-DI",
+   "n_ground_truth": 22,
+   "n_off_diagonal": 0
+  }
+ ],
+ "check_382": "reproduced exactly"
+}

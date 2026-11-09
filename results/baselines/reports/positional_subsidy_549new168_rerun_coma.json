@@ -1,0 +1,1687 @@
+{
+  "mode": "rerun",
+  "seed": 20260909,
+  "repeats": 20,
+  "rows": [
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_1_ac1_ev/assays_both_50_1_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.16666666666666669,
+      "f1_native": 0.15384615384615385,
+      "f1_native_permuted": 0.15384615384615385
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_1_ac2_ev/assays_both_50_1_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_1_ac3_ev/assays_both_50_1_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_1_ac4_ev/assays_both_50_1_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.18181818181818182,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.03508771929824561,
+      "f1_native_permuted": 0.03508771929824561
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_1_ac5_ev/assays_both_50_1_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_1_ec_ev/assays_both_50_1_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.2222222222222222,
+      "f1_hung_permuted": 0.2222222222222222,
+      "f1_native": 0.2222222222222222,
+      "f1_native_permuted": 0.2222222222222222
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_30_ac1_ev/assays_both_50_30_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.631578947368421,
+      "f1_hung_permuted": 0.5263157894736842,
+      "f1_native": 0.5454545454545454,
+      "f1_native_permuted": 0.5454545454545454
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_30_ac2_ev/assays_both_50_30_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.2222222222222222,
+      "f1_hung_permuted": 0.2222222222222222,
+      "f1_native": 0.2222222222222222,
+      "f1_native_permuted": 0.2222222222222222
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_30_ac3_ev/assays_both_50_30_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7142857142857143,
+      "f1_hung_permuted": 0.7142857142857143,
+      "f1_native": 0.7142857142857143,
+      "f1_native_permuted": 0.7142857142857143
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_30_ac4_ev/assays_both_50_30_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5882352941176471,
+      "f1_hung_permuted": 0.23529411764705885,
+      "f1_native": 0.05128205128205128,
+      "f1_native_permuted": 0.05128205128205128
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_30_ac5_ev/assays_both_50_30_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5,
+      "f1_hung_permuted": 0.3,
+      "f1_native": 0.4705882352941177,
+      "f1_native_permuted": 0.4705882352941177
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_30_ec_ev/assays_both_50_30_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7058823529411764,
+      "f1_hung_permuted": 0.7058823529411764,
+      "f1_native": 0.923076923076923,
+      "f1_native_permuted": 0.923076923076923
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_50_ac1_ev/assays_both_50_50_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7407407407407406,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.7333333333333334,
+      "f1_native_permuted": 0.7333333333333334
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_50_ac2_ev/assays_both_50_50_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5454545454545454,
+      "f1_hung_permuted": 0.6363636363636364,
+      "f1_native": 0.47619047619047616,
+      "f1_native_permuted": 0.47619047619047616
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_50_ac3_ev/assays_both_50_50_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8695652173913043,
+      "f1_hung_permuted": 0.8695652173913043,
+      "f1_native": 0.7826086956521738,
+      "f1_native_permuted": 0.7826086956521738
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_50_ac4_ev/assays_both_50_50_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.43478260869565216,
+      "f1_hung_permuted": 0.17391304347826086,
+      "f1_native": 0.08602150537634409,
+      "f1_native_permuted": 0.08602150537634409
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_50_ac5_ev/assays_both_50_50_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.846153846153846,
+      "f1_hung_permuted": 0.6923076923076923,
+      "f1_native": 0.375,
+      "f1_native_permuted": 0.375
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_50_ec_ev/assays_both_50_50_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7692307692307692,
+      "f1_hung_permuted": 0.7692307692307692,
+      "f1_native": 0.9166666666666666,
+      "f1_native_permuted": 0.9166666666666666
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_70_ac1_ev/assays_both_50_70_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7647058823529411,
+      "f1_hung_permuted": 0.7058823529411765,
+      "f1_native": 0.7692307692307693,
+      "f1_native_permuted": 0.7692307692307693
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_70_ac2_ev/assays_both_50_70_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6206896551724138,
+      "f1_hung_permuted": 0.5517241379310345,
+      "f1_native": 0.5185185185185185,
+      "f1_native_permuted": 0.5185185185185185
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_70_ac3_ev/assays_both_50_70_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9032258064516129,
+      "f1_hung_permuted": 0.9032258064516129,
+      "f1_native": 0.8484848484848485,
+      "f1_native_permuted": 0.8484848484848485
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_70_ac4_ev/assays_both_50_70_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.38709677419354843,
+      "f1_hung_permuted": 0.2580645161290323,
+      "f1_native": 0.07079646017699115,
+      "f1_native_permuted": 0.07079646017699115
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_70_ac5_ev/assays_both_50_70_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7999999999999999,
+      "f1_hung_permuted": 0.6857142857142857,
+      "f1_native": 0.7741935483870969,
+      "f1_native_permuted": 0.7741935483870969
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_both_50_70_ec_ev/assays_both_50_70_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9696969696969697,
+      "f1_hung_permuted": 0.9696969696969697,
+      "f1_native": 1.0,
+      "f1_native_permuted": 1.0
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_1_ac1_ev/assays_vertical_1_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.15384615384615385,
+      "f1_native_permuted": 0.15384615384615385
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_1_ac2_ev/assays_vertical_1_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666666,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.6666666666666666,
+      "f1_native_permuted": 0.6666666666666666
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_1_ac3_ev/assays_vertical_1_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_1_ac4_ev/assays_vertical_1_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.18181818181818182,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.03508771929824561,
+      "f1_native_permuted": 0.03508771929824561
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_1_ac5_ev/assays_vertical_1_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_1_ec_ev/assays_vertical_1_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.2222222222222222,
+      "f1_hung_permuted": 0.2222222222222222,
+      "f1_native": 0.2222222222222222,
+      "f1_native_permuted": 0.2222222222222222
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_30_ac1_ev/assays_vertical_30_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5,
+      "f1_hung_permuted": 0.5,
+      "f1_native": 0.5217391304347826,
+      "f1_native_permuted": 0.5217391304347826
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_30_ac2_ev/assays_vertical_30_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.4615384615384615,
+      "f1_hung_permuted": 0.4615384615384615,
+      "f1_native": 0.5,
+      "f1_native_permuted": 0.5
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_30_ac3_ev/assays_vertical_30_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5,
+      "f1_hung_permuted": 0.5,
+      "f1_native": 0.6666666666666666,
+      "f1_native_permuted": 0.6666666666666666
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_30_ac4_ev/assays_vertical_30_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.631578947368421,
+      "f1_hung_permuted": 0.3157894736842105,
+      "f1_native": 0.10526315789473684,
+      "f1_native_permuted": 0.10526315789473684
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_30_ac5_ev/assays_vertical_30_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5263157894736842,
+      "f1_hung_permuted": 0.42105263157894735,
+      "f1_native": 0.4705882352941177,
+      "f1_native_permuted": 0.4705882352941177
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_30_ec_ev/assays_vertical_30_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7499999999999999,
+      "f1_hung_permuted": 0.7499999999999999,
+      "f1_native": 1.0,
+      "f1_native_permuted": 1.0
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_50_ac1_ev/assays_vertical_50_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666666,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.6896551724137931,
+      "f1_native_permuted": 0.6896551724137931
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_50_ac2_ev/assays_vertical_50_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5,
+      "f1_hung_permuted": 0.5,
+      "f1_native": 0.3157894736842105,
+      "f1_native_permuted": 0.3157894736842105
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_50_ac3_ev/assays_vertical_50_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9523809523809523,
+      "f1_hung_permuted": 0.761904761904762,
+      "f1_native": 0.8695652173913043,
+      "f1_native_permuted": 0.8695652173913043
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_50_ac4_ev/assays_vertical_50_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.41666666666666663,
+      "f1_hung_permuted": 0.24999999999999994,
+      "f1_native": 0.1081081081081081,
+      "f1_native_permuted": 0.1081081081081081
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_50_ac5_ev/assays_vertical_50_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6153846153846153,
+      "f1_hung_permuted": 0.5925925925925926,
+      "f1_native": 0.6956521739130435,
+      "f1_native_permuted": 0.6956521739130435
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_50_ec_ev/assays_vertical_50_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.846153846153846,
+      "f1_hung_permuted": 0.846153846153846,
+      "f1_native": 0.88,
+      "f1_native_permuted": 0.88
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_70_ac1_ev/assays_vertical_70_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7999999999999999,
+      "f1_hung_permuted": 0.7999999999999999,
+      "f1_native": 0.7894736842105263,
+      "f1_native_permuted": 0.7894736842105263
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_70_ac2_ev/assays_vertical_70_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5714285714285715,
+      "f1_hung_permuted": 0.42857142857142855,
+      "f1_native": 0.4615384615384615,
+      "f1_native_permuted": 0.4615384615384615
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_70_ac3_ev/assays_vertical_70_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8387096774193549,
+      "f1_hung_permuted": 0.8387096774193549,
+      "f1_native": 0.9032258064516129,
+      "f1_native_permuted": 0.9032258064516129
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_70_ac4_ev/assays_vertical_70_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6000000000000001,
+      "f1_hung_permuted": 0.19999999999999998,
+      "f1_native": 0.11009174311926605,
+      "f1_native_permuted": 0.11009174311926605
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_70_ac5_ev/assays_vertical_70_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6470588235294118,
+      "f1_hung_permuted": 0.6470588235294118,
+      "f1_native": 0.7272727272727272,
+      "f1_native_permuted": 0.7272727272727272
+    },
+    {
+      "id": "valentine/ChEMBL/Joinable/assays_vertical_70_ec_ev/assays_vertical_70_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8571428571428572,
+      "f1_hung_permuted": 0.8571428571428572,
+      "f1_native": 0.9696969696969697,
+      "f1_native_permuted": 0.9696969696969697
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac1_av/assays_both_0_1_ac1_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.16666666666666669,
+      "f1_native": 0.15384615384615385,
+      "f1_native_permuted": 0.15384615384615385
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac1_ev/assays_both_0_1_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.16666666666666669,
+      "f1_native": 0.15384615384615385,
+      "f1_native_permuted": 0.15384615384615385
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac2_av/assays_both_0_1_ac2_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac2_ev/assays_both_0_1_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac3_av/assays_both_0_1_ac3_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac3_ev/assays_both_0_1_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac4_av/assays_both_0_1_ac4_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.18181818181818182,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.046511627906976744,
+      "f1_native_permuted": 0.046511627906976744
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac4_ev/assays_both_0_1_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.18181818181818182,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.046511627906976744,
+      "f1_native_permuted": 0.046511627906976744
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac5_av/assays_both_0_1_ac5_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ac5_ev/assays_both_0_1_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.16666666666666669,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ec_av/assays_both_0_1_ec_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.2222222222222222,
+      "f1_hung_permuted": 0.2222222222222222,
+      "f1_native": 0.2222222222222222,
+      "f1_native_permuted": 0.2222222222222222
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_1_ec_ev/assays_both_0_1_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.2222222222222222,
+      "f1_hung_permuted": 0.2222222222222222,
+      "f1_native": 0.2222222222222222,
+      "f1_native_permuted": 0.2222222222222222
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac1_ev/assays_both_0_30_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6,
+      "f1_hung_permuted": 0.5,
+      "f1_native": 0.5217391304347826,
+      "f1_native_permuted": 0.5217391304347826
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac2_av/assays_both_0_30_ac2_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.4,
+      "f1_hung_permuted": 0.4,
+      "f1_native": 0.4444444444444444,
+      "f1_native_permuted": 0.4444444444444444
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac2_ev/assays_both_0_30_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.3636363636363636,
+      "f1_hung_permuted": 0.3636363636363636,
+      "f1_native": 0.3333333333333333,
+      "f1_native_permuted": 0.3333333333333333
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac3_av/assays_both_0_30_ac3_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5714285714285715,
+      "f1_hung_permuted": 0.5714285714285715,
+      "f1_native": 0.5714285714285715,
+      "f1_native_permuted": 0.5714285714285715
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac3_ev/assays_both_0_30_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7692307692307692,
+      "f1_hung_permuted": 0.7692307692307692,
+      "f1_native": 0.6666666666666667,
+      "f1_native_permuted": 0.6666666666666667
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac4_av/assays_both_0_30_ac4_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.37499999999999994,
+      "f1_hung_permuted": 0.125,
+      "f1_native": 0.0625,
+      "f1_native_permuted": 0.0625
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac4_ev/assays_both_0_30_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5555555555555556,
+      "f1_hung_permuted": 0.4444444444444444,
+      "f1_native": 0.061538461538461535,
+      "f1_native_permuted": 0.061538461538461535
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac5_av/assays_both_0_30_ac5_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5263157894736842,
+      "f1_hung_permuted": 0.42105263157894735,
+      "f1_native": 0.6666666666666667,
+      "f1_native_permuted": 0.6666666666666667
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ac5_ev/assays_both_0_30_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5263157894736842,
+      "f1_hung_permuted": 0.5263157894736842,
+      "f1_native": 0.5882352941176471,
+      "f1_native_permuted": 0.5882352941176471
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ec_av/assays_both_0_30_ec_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666666,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.7058823529411764,
+      "f1_native_permuted": 0.7058823529411764
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_30_ec_ev/assays_both_0_30_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666666,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.6666666666666666,
+      "f1_native_permuted": 0.6666666666666666
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac1_av/assays_both_0_50_ac1_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6428571428571428,
+      "f1_hung_permuted": 0.6428571428571428,
+      "f1_native": 0.6451612903225806,
+      "f1_native_permuted": 0.6451612903225806
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac1_ev/assays_both_0_50_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8148148148148148,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.7333333333333334,
+      "f1_native_permuted": 0.7333333333333334
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac2_av/assays_both_0_50_ac2_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.25000000000000006,
+      "f1_hung_permuted": 0.25000000000000006,
+      "f1_native": 0.12500000000000003,
+      "f1_native_permuted": 0.12500000000000003
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac2_ev/assays_both_0_50_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7000000000000001,
+      "f1_hung_permuted": 0.7000000000000001,
+      "f1_native": 0.631578947368421,
+      "f1_native_permuted": 0.631578947368421
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac3_av/assays_both_0_50_ac3_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8695652173913043,
+      "f1_hung_permuted": 0.6956521739130435,
+      "f1_native": 0.8333333333333333,
+      "f1_native_permuted": 0.8333333333333333
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac3_ev/assays_both_0_50_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7826086956521738,
+      "f1_hung_permuted": 0.7826086956521738,
+      "f1_native": 0.8181818181818182,
+      "f1_native_permuted": 0.8181818181818182
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac4_av/assays_both_0_50_ac4_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.34782608695652173,
+      "f1_hung_permuted": 0.2608695652173913,
+      "f1_native": 0.10752688172043011,
+      "f1_native_permuted": 0.10752688172043011
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac4_ev/assays_both_0_50_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.4799999999999999,
+      "f1_hung_permuted": 0.32,
+      "f1_native": 0.11111111111111112,
+      "f1_native_permuted": 0.11111111111111112
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ac5_av/assays_both_0_50_ac5_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666666,
+      "f1_hung_permuted": 0.5185185185185185,
+      "f1_native": 0.6956521739130435,
+      "f1_native_permuted": 0.6956521739130435
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ec_av/assays_both_0_50_ec_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.88,
+      "f1_hung_permuted": 0.88,
+      "f1_native": 0.9166666666666666,
+      "f1_native_permuted": 0.9166666666666666
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_50_ec_ev/assays_both_0_50_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9166666666666666,
+      "f1_hung_permuted": 0.9166666666666666,
+      "f1_native": 1.0,
+      "f1_native_permuted": 1.0
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac1_av/assays_both_0_70_ac1_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7999999999999999,
+      "f1_hung_permuted": 0.7999999999999999,
+      "f1_native": 0.7894736842105263,
+      "f1_native_permuted": 0.7894736842105263
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac1_ev/assays_both_0_70_ac1_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8571428571428572,
+      "f1_hung_permuted": 0.8571428571428572,
+      "f1_native": 0.8,
+      "f1_native_permuted": 0.8
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac2_av/assays_both_0_70_ac2_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.32,
+      "f1_hung_permuted": 0.39999999999999997,
+      "f1_native": 0.3333333333333333,
+      "f1_native_permuted": 0.3333333333333333
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac2_ev/assays_both_0_70_ac2_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.32,
+      "f1_hung_permuted": 0.32,
+      "f1_native": 0.25,
+      "f1_native_permuted": 0.25
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac3_av/assays_both_0_70_ac3_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9375,
+      "f1_hung_permuted": 0.8125,
+      "f1_native": 0.8823529411764706,
+      "f1_native_permuted": 0.8823529411764706
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac3_ev/assays_both_0_70_ac3_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9032258064516129,
+      "f1_hung_permuted": 0.9032258064516129,
+      "f1_native": 0.8387096774193549,
+      "f1_native_permuted": 0.8387096774193549
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac4_av/assays_both_0_70_ac4_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5454545454545455,
+      "f1_hung_permuted": 0.3636363636363636,
+      "f1_native": 0.11363636363636365,
+      "f1_native_permuted": 0.11363636363636365
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac4_ev/assays_both_0_70_ac4_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.2580645161290323,
+      "f1_hung_permuted": 0.3225806451612903,
+      "f1_native": 0.1388888888888889,
+      "f1_native_permuted": 0.1388888888888889
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac5_av/assays_both_0_70_ac5_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7058823529411765,
+      "f1_hung_permuted": 0.5882352941176471,
+      "f1_native": 0.6666666666666667,
+      "f1_native_permuted": 0.6666666666666667
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ac5_ev/assays_both_0_70_ac5_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8571428571428572,
+      "f1_hung_permuted": 0.6285714285714286,
+      "f1_native": 0.7741935483870969,
+      "f1_native_permuted": 0.7741935483870969
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ec_av/assays_both_0_70_ec_av",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8823529411764706,
+      "f1_hung_permuted": 0.8823529411764706,
+      "f1_native": 0.9411764705882353,
+      "f1_native_permuted": 0.9411764705882353
+    },
+    {
+      "id": "valentine/ChEMBL/View-Unionable/assays_both_0_70_ec_ev/assays_both_0_70_ec_ev",
+      "family": "ChEMBL",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9411764705882353,
+      "f1_hung_permuted": 0.9411764705882353,
+      "f1_native": 0.9411764705882353,
+      "f1_native_permuted": 0.9411764705882353
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_both_50_1_ac4_av/miller2_both_50_1_ac4_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.1,
+      "f1_hung_permuted": 0.1,
+      "f1_native": 0.05555555555555556,
+      "f1_native_permuted": 0.05555555555555556
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_both_50_1_ac5_av/miller2_both_50_1_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_both_50_30_ac5_av/miller2_both_50_30_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.25,
+      "f1_hung_permuted": 0.18750000000000003,
+      "f1_native": 0.12962962962962962,
+      "f1_native_permuted": 0.12962962962962962
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_both_50_50_ac2_av/miller2_both_50_50_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8620689655172413,
+      "f1_hung_permuted": 0.793103448275862,
+      "f1_native": 0.7384615384615384,
+      "f1_native_permuted": 0.7384615384615384
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_both_50_50_ac5_av/miller2_both_50_50_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.46808510638297873,
+      "f1_hung_permuted": 0.3404255319148936,
+      "f1_native": 0.23529411764705882,
+      "f1_native_permuted": 0.23529411764705882
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_both_50_70_ac4_av/miller2_both_50_70_ac4_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8378378378378378,
+      "f1_hung_permuted": 0.8108108108108107,
+      "f1_native": 0.8250000000000001,
+      "f1_native_permuted": 0.8250000000000001
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_both_50_70_ac5_av/miller2_both_50_70_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.25806451612903225,
+      "f1_hung_permuted": 0.1935483870967742,
+      "f1_native": 0.18579234972677597,
+      "f1_native_permuted": 0.18579234972677597
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_1_ac5_av/miller2_vertical_1_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_1_ec_av/miller2_vertical_1_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.07692307692307693,
+      "f1_hung_permuted": 0.07692307692307693,
+      "f1_native": 0.05882352941176471,
+      "f1_native_permuted": 0.05882352941176471
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_30_ac1_av/miller2_vertical_30_ac1_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6382978723404256,
+      "f1_hung_permuted": 0.6382978723404256,
+      "f1_native": 0.4918032786885246,
+      "f1_native_permuted": 0.4918032786885246
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_30_ac2_av/miller2_vertical_30_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6829268292682926,
+      "f1_hung_permuted": 0.6829268292682926,
+      "f1_native": 0.5957446808510638,
+      "f1_native_permuted": 0.5957446808510638
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_30_ac5_av/miller2_vertical_30_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.18750000000000003,
+      "f1_hung_permuted": 0.25,
+      "f1_native": 0.15730337078651685,
+      "f1_native_permuted": 0.15730337078651685
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_30_ec_av/miller2_vertical_30_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6382978723404256,
+      "f1_hung_permuted": 0.6382978723404256,
+      "f1_native": 0.6976744186046512,
+      "f1_native_permuted": 0.6976744186046512
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_50_ac2_av/miller2_vertical_50_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6779661016949153,
+      "f1_hung_permuted": 0.6440677966101696,
+      "f1_native": 0.6333333333333332,
+      "f1_native_permuted": 0.6333333333333332
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_50_ac3_av/miller2_vertical_50_ac3_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.34782608695652173,
+      "f1_hung_permuted": 0.43478260869565216,
+      "f1_native": 0.40909090909090906,
+      "f1_native_permuted": 0.40909090909090906
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_50_ac4_av/miller2_vertical_50_ac4_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7241379310344828,
+      "f1_hung_permuted": 0.793103448275862,
+      "f1_native": 0.7741935483870968,
+      "f1_native_permuted": 0.7741935483870968
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_50_ec_av/miller2_vertical_50_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.819672131147541,
+      "f1_hung_permuted": 0.819672131147541,
+      "f1_native": 0.9433962264150945,
+      "f1_native_permuted": 0.9433962264150945
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_70_ac2_av/miller2_vertical_70_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8108108108108107,
+      "f1_hung_permuted": 0.8108108108108107,
+      "f1_native": 0.7179487179487181,
+      "f1_native_permuted": 0.7179487179487181
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_70_ac3_av/miller2_vertical_70_ac3_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.2903225806451613,
+      "f1_hung_permuted": 0.2903225806451613,
+      "f1_native": 0.3142857142857143,
+      "f1_native_permuted": 0.3142857142857143
+    },
+    {
+      "id": "valentine/OpenData/Semantically-Joinable/miller2_vertical_70_ec_av/miller2_vertical_70_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9210526315789475,
+      "f1_hung_permuted": 0.9210526315789475,
+      "f1_native": 1.0,
+      "f1_native_permuted": 1.0
+    },
+    {
+      "id": "valentine/OpenData/Unionable/miller2_horizontal_100_ec_ev/miller2_horizontal_100_ec_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 1.0,
+      "f1_hung_permuted": 1.0,
+      "f1_native": 1.0,
+      "f1_native_permuted": 1.0
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac1_av/miller2_both_0_1_ac1_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.07999999999999999,
+      "f1_hung_permuted": 0.07999999999999999,
+      "f1_native": 0.03125,
+      "f1_native_permuted": 0.03125
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac1_ev/miller2_both_0_1_ac1_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.07999999999999999,
+      "f1_hung_permuted": 0.07999999999999999,
+      "f1_native": 0.03125,
+      "f1_native_permuted": 0.03125
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac2_av/miller2_both_0_1_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.125,
+      "f1_hung_permuted": 0.125,
+      "f1_native": 0.08695652173913045,
+      "f1_native_permuted": 0.08695652173913045
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac2_ev/miller2_both_0_1_ac2_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.11764705882352941,
+      "f1_hung_permuted": 0.11764705882352941,
+      "f1_native": 0.07142857142857142,
+      "f1_native_permuted": 0.07142857142857142
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac3_av/miller2_both_0_1_ac3_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac3_ev/miller2_both_0_1_ac3_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac4_av/miller2_both_0_1_ac4_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.1111111111111111,
+      "f1_hung_permuted": 0.1111111111111111,
+      "f1_native": 0.05,
+      "f1_native_permuted": 0.05
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac4_ev/miller2_both_0_1_ac4_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.10526315789473684,
+      "f1_hung_permuted": 0.10526315789473684,
+      "f1_native": 0.05128205128205127,
+      "f1_native_permuted": 0.05128205128205127
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac5_av/miller2_both_0_1_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ac5_ev/miller2_both_0_1_ac5_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.0,
+      "f1_hung_permuted": 0.0,
+      "f1_native": 0.0,
+      "f1_native_permuted": 0.0
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ec_av/miller2_both_0_1_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.07692307692307693,
+      "f1_hung_permuted": 0.07692307692307693,
+      "f1_native": 0.05882352941176471,
+      "f1_native_permuted": 0.05882352941176471
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_1_ec_ev/miller2_both_0_1_ec_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.07692307692307693,
+      "f1_hung_permuted": 0.07692307692307693,
+      "f1_native": 0.05882352941176471,
+      "f1_native_permuted": 0.05882352941176471
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac1_av/miller2_both_0_30_ac1_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.608695652173913,
+      "f1_hung_permuted": 0.608695652173913,
+      "f1_native": 0.6976744186046512,
+      "f1_native_permuted": 0.6976744186046512
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac1_ev/miller2_both_0_30_ac1_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6382978723404256,
+      "f1_hung_permuted": 0.6382978723404256,
+      "f1_native": 0.6382978723404256,
+      "f1_native_permuted": 0.6382978723404256
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac2_av/miller2_both_0_30_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6511627906976745,
+      "f1_hung_permuted": 0.6511627906976745,
+      "f1_native": 0.5882352941176471,
+      "f1_native_permuted": 0.5882352941176471
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac2_ev/miller2_both_0_30_ac2_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666667,
+      "f1_hung_permuted": 0.6666666666666667,
+      "f1_native": 0.6829268292682926,
+      "f1_native_permuted": 0.6829268292682926
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac3_av/miller2_both_0_30_ac3_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.25,
+      "f1_hung_permuted": 0.25,
+      "f1_native": 0.2105263157894737,
+      "f1_native_permuted": 0.2105263157894737
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac3_ev/miller2_both_0_30_ac3_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.29411764705882354,
+      "f1_hung_permuted": 0.29411764705882354,
+      "f1_native": 0.17391304347826086,
+      "f1_native_permuted": 0.17391304347826086
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac4_av/miller2_both_0_30_ac4_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666667,
+      "f1_hung_permuted": 0.6666666666666667,
+      "f1_native": 0.5957446808510638,
+      "f1_native_permuted": 0.5957446808510638
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac4_ev/miller2_both_0_30_ac4_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7000000000000001,
+      "f1_hung_permuted": 0.5853658536585367,
+      "f1_native": 0.6666666666666667,
+      "f1_native_permuted": 0.6666666666666667
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac5_av/miller2_both_0_30_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.35294117647058826,
+      "f1_hung_permuted": 0.17647058823529413,
+      "f1_native": 0.12121212121212122,
+      "f1_native_permuted": 0.12121212121212122
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ac5_ev/miller2_both_0_30_ac5_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.34285714285714286,
+      "f1_hung_permuted": 0.17142857142857143,
+      "f1_native": 0.18691588785046725,
+      "f1_native_permuted": 0.18691588785046725
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ec_av/miller2_both_0_30_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6382978723404256,
+      "f1_hung_permuted": 0.6382978723404256,
+      "f1_native": 0.8571428571428571,
+      "f1_native_permuted": 0.8571428571428571
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_30_ec_ev/miller2_both_0_30_ec_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6382978723404256,
+      "f1_hung_permuted": 0.6382978723404256,
+      "f1_native": 0.8108108108108109,
+      "f1_native_permuted": 0.8108108108108109
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac1_av/miller2_both_0_50_ac1_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8064516129032258,
+      "f1_hung_permuted": 0.8064516129032258,
+      "f1_native": 0.8474576271186441,
+      "f1_native_permuted": 0.8474576271186441
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac1_ev/miller2_both_0_50_ac1_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7868852459016393,
+      "f1_hung_permuted": 0.7868852459016393,
+      "f1_native": 0.8333333333333333,
+      "f1_native_permuted": 0.8333333333333333
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac2_av/miller2_both_0_50_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666666,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.7457627118644068,
+      "f1_native_permuted": 0.7457627118644068
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac2_ev/miller2_both_0_50_ac2_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7719298245614036,
+      "f1_hung_permuted": 0.8421052631578947,
+      "f1_native": 0.7741935483870968,
+      "f1_native_permuted": 0.7741935483870968
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac3_av/miller2_both_0_50_ac3_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.46808510638297873,
+      "f1_hung_permuted": 0.2553191489361702,
+      "f1_native": 0.28,
+      "f1_native_permuted": 0.28
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac3_ev/miller2_both_0_50_ac3_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.4081632653061225,
+      "f1_hung_permuted": 0.24489795918367346,
+      "f1_native": 0.29629629629629634,
+      "f1_native_permuted": 0.29629629629629634
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac4_av/miller2_both_0_50_ac4_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8275862068965517,
+      "f1_hung_permuted": 0.8275862068965517,
+      "f1_native": 0.8620689655172413,
+      "f1_native_permuted": 0.8620689655172413
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac4_ev/miller2_both_0_50_ac4_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6551724137931034,
+      "f1_hung_permuted": 0.6551724137931034,
+      "f1_native": 0.676923076923077,
+      "f1_native_permuted": 0.676923076923077
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac5_av/miller2_both_0_50_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5833333333333334,
+      "f1_hung_permuted": 0.41666666666666663,
+      "f1_native": 0.24742268041237112,
+      "f1_native_permuted": 0.24742268041237112
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ac5_ev/miller2_both_0_50_ac5_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.5957446808510639,
+      "f1_hung_permuted": 0.2553191489361702,
+      "f1_native": 0.16149068322981366,
+      "f1_native_permuted": 0.16149068322981366
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ec_av/miller2_both_0_50_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7619047619047619,
+      "f1_hung_permuted": 0.7619047619047619,
+      "f1_native": 0.9433962264150945,
+      "f1_native_permuted": 0.9433962264150945
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_50_ec_ev/miller2_both_0_50_ec_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.7419354838709677,
+      "f1_hung_permuted": 0.7419354838709677,
+      "f1_native": 0.9433962264150945,
+      "f1_native_permuted": 0.9433962264150945
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac1_av/miller2_both_0_70_ac1_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9090909090909091,
+      "f1_hung_permuted": 0.9090909090909091,
+      "f1_native": 0.8641975308641976,
+      "f1_native_permuted": 0.8641975308641976
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac1_ev/miller2_both_0_70_ac1_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8831168831168832,
+      "f1_hung_permuted": 0.8831168831168832,
+      "f1_native": 0.9859154929577464,
+      "f1_native_permuted": 0.9859154929577464
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac2_av/miller2_both_0_70_ac2_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8767123287671234,
+      "f1_hung_permuted": 0.8767123287671234,
+      "f1_native": 0.8493150684931505,
+      "f1_native_permuted": 0.8493150684931505
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac2_ev/miller2_both_0_70_ac2_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8918918918918919,
+      "f1_hung_permuted": 0.8378378378378378,
+      "f1_native": 0.8648648648648648,
+      "f1_native_permuted": 0.8648648648648648
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac3_av/miller2_both_0_70_ac3_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.26229508196721313,
+      "f1_hung_permuted": 0.32786885245901637,
+      "f1_native": 0.22222222222222224,
+      "f1_native_permuted": 0.22222222222222224
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac3_ev/miller2_both_0_70_ac3_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.4918032786885245,
+      "f1_hung_permuted": 0.22950819672131148,
+      "f1_native": 0.303030303030303,
+      "f1_native_permuted": 0.303030303030303
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac4_av/miller2_both_0_70_ac4_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8918918918918919,
+      "f1_hung_permuted": 0.8918918918918919,
+      "f1_native": 0.904109589041096,
+      "f1_native_permuted": 0.904109589041096
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac4_ev/miller2_both_0_70_ac4_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8108108108108107,
+      "f1_hung_permuted": 0.8108108108108107,
+      "f1_native": 0.7096774193548387,
+      "f1_native_permuted": 0.7096774193548387
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac5_av/miller2_both_0_70_ac5_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6229508196721311,
+      "f1_hung_permuted": 0.45901639344262296,
+      "f1_native": 0.2727272727272727,
+      "f1_native_permuted": 0.2727272727272727
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ac5_ev/miller2_both_0_70_ac5_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.41935483870967744,
+      "f1_hung_permuted": 0.3870967741935484,
+      "f1_native": 0.2389937106918239,
+      "f1_native_permuted": 0.2389937106918239
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ec_av/miller2_both_0_70_ec_av",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9090909090909091,
+      "f1_hung_permuted": 0.9090909090909091,
+      "f1_native": 0.945945945945946,
+      "f1_native_permuted": 0.945945945945946
+    },
+    {
+      "id": "valentine/OpenData/View -Unionable/miller2_both_0_70_ec_ev/miller2_both_0_70_ec_ev",
+      "family": "OpenData",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8974358974358974,
+      "f1_hung_permuted": 0.8974358974358974,
+      "f1_native": 1.0,
+      "f1_native_permuted": 1.0
+    },
+    {
+      "id": "valentine/TPC-DI/Semantically-Joinable/prospect_both_50_30_ac3_av/prospect_both_50_30_ac3_av",
+      "family": "TPC-DI",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.6666666666666666,
+      "f1_hung_permuted": 0.6666666666666666,
+      "f1_native": 0.6666666666666666,
+      "f1_native_permuted": 0.6666666666666666
+    },
+    {
+      "id": "valentine/TPC-DI/Semantically-Joinable/prospect_both_50_50_ac3_av/prospect_both_50_50_ac3_av",
+      "family": "TPC-DI",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8421052631578948,
+      "f1_hung_permuted": 0.8421052631578948,
+      "f1_native": 0.7777777777777778,
+      "f1_native_permuted": 0.7777777777777778
+    },
+    {
+      "id": "valentine/TPC-DI/Unionable/prospect_horizontal_0_ac3_ev/prospect_horizontal_0_ac3_ev",
+      "family": "TPC-DI",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.8421052631578948,
+      "f1_hung_permuted": 0.8421052631578948,
+      "f1_native": 0.7777777777777778,
+      "f1_native_permuted": 0.7777777777777778
+    },
+    {
+      "id": "valentine/TPC-DI/Unionable/prospect_horizontal_0_ec_av/prospect_horizontal_0_ec_av",
+      "family": "TPC-DI",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 1.0,
+      "f1_hung_permuted": 1.0,
+      "f1_native": 0.9565217391304348,
+      "f1_native_permuted": 0.9565217391304348
+    },
+    {
+      "id": "valentine/TPC-DI/Unionable/prospect_horizontal_50_ac2_av/prospect_horizontal_50_ac2_av",
+      "family": "TPC-DI",
+      "max_abs_delta": 0.0,
+      "native_identical": true,
+      "f1_hung": 0.9,
+      "f1_hung_permuted": 0.9,
+      "f1_native": 0.9,
+      "f1_native_permuted": 0.9
+    }
+  ]
+}

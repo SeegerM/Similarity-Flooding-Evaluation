@@ -1,0 +1,14 @@
+{
+ "J difference": "+0.025",
+ "J exact p": "0.179",
+ "J independent mean": "+0.004",
+ "J source-built groups": "4",
+ "J source-built interval": "[+0.007, +0.051]",
+ "J source-built mean": "+0.029",
+ "R difference": "+0.030",
+ "R exact p": "0.288",
+ "R independent mean": "+0.002",
+ "R source-built groups": "4",
+ "R source-built interval": "[-0.012, +0.076]",
+ "R source-built mean": "+0.032"
+}

@@ -1,0 +1,3 @@
+# keep cached results byte-identical on checkout (results/GZIPPED.tsv lists SHA-256 hashes)
+results/** -text
+*.pdf binary

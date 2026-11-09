@@ -1,0 +1,44 @@
+{
+ "plain/TPCH": {
+  "identical": 0.8755442302464201,
+  "independent": 0.836512790641231,
+  "HC": 0.0338102299101415,
+  "CVA": 0.0,
+  "annotated_GT": 0.06774174638166768
+ },
+ "plain/AdventureWorks": {
+  "identical": 0.8811363979720978,
+  "independent": 0.8709374465966758,
+  "HC": -0.058597175120622444,
+  "CVA": 0.0,
+  "annotated_GT": 0.012918395092080766
+ },
+ "plain/Chinook": {
+  "identical": 0.9184077852678383,
+  "independent": 0.9131464297683208,
+  "HC": -0.0316648851341658,
+  "CVA": 0.0,
+  "annotated_GT": 0.025661192045836907
+ },
+ "opaque/TPCH": {
+  "identical": 0.13315098022684582,
+  "independent": 0.12356068560800575,
+  "HC": 0.16972583399871582,
+  "CVA": 0.0,
+  "annotated_GT": 0.11006540309109515
+ },
+ "opaque/AdventureWorks": {
+  "identical": 0.08552969080352447,
+  "independent": 0.08311377601438454,
+  "HC": 0.21111892933934284,
+  "CVA": 0.0,
+  "annotated_GT": 0.13685843144083346
+ },
+ "opaque/Chinook": {
+  "identical": 0.19116942004223003,
+  "independent": 0.17311416207465521,
+  "HC": 0.08427313017078387,
+  "CVA": 0.0,
+  "annotated_GT": 0.15262112883603746
+ }
+}

@@ -1,0 +1,15 @@
+source_table,source_column,target_table,target_column,attribute,confidence
+article,articleid,publication,pid,id,C
+article,title,publication,title,title,C
+article,year,written,pubyear,year,C
+article,note,record,notes,note,L
+article,abstract,publication,abstract,abstract,C
+articleauthor,articleid,written,pid,authlink_pub,C
+articleauthor,authorid,written,aid,authlink_author,C
+author,authorid,author,aid,id,C
+author,name,author,name,name,C
+unpublished,unpubid,publication,pid,id,C
+unpublished,title,publication,title,title,C
+unpublished,note,record,notes,note,L
+unpubauthor,unpubid,written,pid,authlink_pub,C
+unpubauthor,authorid,written,aid,authlink_author,C

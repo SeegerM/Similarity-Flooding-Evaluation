@@ -1,0 +1,5 @@
+74 initial matchers, 380 scenarios in ['ChEMBL', 'Magellan', 'OpenData', 'TPC-DI']; scenarios: all
+H1 J_tf(tiebreak) - J_tf(initial): +0.0103  95% CI [+0.0081, +0.0123]  CONFIRMED
+H2 J_tf(tiebreak) - J_tf(sf): -0.0287  95% CI [-0.0418, -0.0147]  not confirmed
+H3 R_exp(tiebreak) - R_exp(initial): +0.0074  95% CI [+0.0056, +0.0094]  CONFIRMED
+   F1_Hr(tiebreak) - F1_Hr(initial): +0.0132  95% CI [+0.0093, +0.0173]  

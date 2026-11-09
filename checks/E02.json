@@ -1,0 +1,18 @@
+{
+ "rqOneMaxRexp": "+0.16",
+ "rqOneMeanFHr": "+0.011",
+ "rqOneMeanRexp": "+0.030",
+ "rqOneMinRexp": "-0.13",
+ "rqOneN": "77",
+ "rqOneRhoFHr": "-0.49",
+ "rqOneRhoRexp": "-0.67",
+ "rqOneUpFHr": "52",
+ "rqOneUpRexp": "71",
+ "rvHeadRexp": "-0.48",
+ "rvNullFHr": "-0.67",
+ "rvNullFHrHi": "-0.54",
+ "rvNullFHrLo": "-0.77",
+ "rvNullRexp": "-0.69",
+ "rvNullRexpHi": "-0.57",
+ "rvNullRexpLo": "-0.78"
+}

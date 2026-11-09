@@ -1,0 +1,3 @@
+corpus,col,J,J_lo,J_hi,R,R_lo,R_hi,matchers
+3-DB multi-table,cl,-0.0095,-0.0142,-0.0046,0.0239,0.0206,0.0273,73
+3-DB multi-table,dt,-0.0305,-0.0355,-0.0252,-0.0079,-0.0118,-0.0038,73

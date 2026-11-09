@@ -1,0 +1,81 @@
+{
+  "source": {
+    "fd": {
+      "status": "complete",
+      "key": "4f418319b7ddc8f33a1194b4e9121736d11431ab6b6ddf47e327a14d5429f478",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\4f418319b7ddc8f33a1194b4e9121736d11431ab6b6ddf47e327a14d5429f478\\profile.json",
+      "cache_hit": false,
+      "count": 161,
+      "compatibility_omissions": [
+        "empty-determinant FD retained only in canonical cache"
+      ],
+      "compatibility_count": 156
+    },
+    "ucc": {
+      "status": "complete",
+      "key": "426fea5a3a9b55861bb4766ce7ea9d6afd054d3bfdc5ea9d78df103f09e6c6e5",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\426fea5a3a9b55861bb4766ce7ea9d6afd054d3bfdc5ea9d78df103f09e6c6e5\\profile.json",
+      "cache_hit": false,
+      "count": 5,
+      "compatibility_omissions": [
+        "relaxed UCC not exported as an exact key"
+      ],
+      "compatibility_count": 3
+    },
+    "ind": {
+      "status": "complete",
+      "key": "f9459ae801a03a61e873d2d4b2097626159b597c20c2ab1d0ae698a905e80346",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\f9459ae801a03a61e873d2d4b2097626159b597c20c2ab1d0ae698a905e80346\\profile.json",
+      "cache_hit": false,
+      "count": 12,
+      "compatibility_omissions": [],
+      "compatibility_count": 12
+    },
+    "dc": {
+      "status": "complete",
+      "key": "b174a3b4c560bb87e62ecea175e65da7b453208b5e3daf755f90a438ba6a16ba",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\b174a3b4c560bb87e62ecea175e65da7b453208b5e3daf755f90a438ba6a16ba\\profile.json",
+      "cache_hit": false,
+      "count": 7,
+      "compatibility_omissions": [],
+      "compatibility_count": 7
+    }
+  },
+  "target": {
+    "fd": {
+      "status": "complete",
+      "key": "88c4698d92873752d59a59f96133c8d73a9dfa0cdac7564367a95a593ee868ef",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\88c4698d92873752d59a59f96133c8d73a9dfa0cdac7564367a95a593ee868ef\\profile.json",
+      "cache_hit": true,
+      "count": 6496,
+      "compatibility_omissions": [
+        "empty-determinant FD retained only in canonical cache"
+      ],
+      "compatibility_count": 5775
+    },
+    "ucc": {
+      "status": "complete",
+      "key": "b74348618502d29311df1252a83b478afc27408a0cf10508ebd94215c35ed123",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\b74348618502d29311df1252a83b478afc27408a0cf10508ebd94215c35ed123\\profile.json",
+      "cache_hit": true,
+      "count": 1,
+      "compatibility_omissions": [],
+      "compatibility_count": 1
+    },
+    "ind": {
+      "status": "complete",
+      "key": "68902b11cc940099e6bdde6b51fb89bf85be1fcd76fdebf0462736c709f71ea9",
+      "path": "<repo-root>\\harness\\profile-cache\\profiles\\68902b11cc940099e6bdde6b51fb89bf85be1fcd76fdebf0462736c709f71ea9\\profile.json",
+      "cache_hit": true,
+      "count": 281716,
+      "compatibility_omissions": [
+        "relaxed IND not exported as an exact inclusion"
+      ],
+      "compatibility_count": 281695
+    },
+    "dc": {
+      "status": "not_applicable",
+      "reason": "LIMA width 736 exceeds configured cap 64"
+    }
+  }
+}

@@ -1,0 +1,471 @@
+{
+ "positives_benchmark": 105,
+ "positives_kept": 104,
+ "lost": [
+  [
+   "patients-deathdate",
+   "person-death_datetime"
+  ]
+ ],
+ "dropped": {
+  "source": [
+   "providers-utilization"
+  ],
+  "target": [
+   "care_site-care_site_id",
+   "care_site-care_site_name",
+   "care_site-care_site_source_value",
+   "care_site-location_id",
+   "care_site-place_of_service_concept_id",
+   "care_site-place_of_service_source_value",
+   "cohort-cohort_definition_id",
+   "cohort-cohort_end_date",
+   "cohort-cohort_start_date",
+   "cohort-subject_id",
+   "cohort_definition-cohort_definition_description",
+   "cohort_definition-cohort_definition_id",
+   "cohort_definition-cohort_definition_name",
+   "cohort_definition-cohort_definition_syntax",
+   "cohort_definition-cohort_initiation_date",
+   "cohort_definition-definition_type_concept_id",
+   "cohort_definition-subject_concept_id",
+   "death-cause_concept_id",
+   "death-cause_source_concept_id",
+   "death-cause_source_value",
+   "death-death_date",
+   "death-death_datetime",
+   "death-death_type_concept_id",
+   "death-person_id",
+   "device_exposure-device_concept_id",
+   "device_exposure-device_exposure_end_date",
+   "device_exposure-device_exposure_end_datetime",
+   "device_exposure-device_exposure_id",
+   "device_exposure-device_exposure_start_date",
+   "device_exposure-device_exposure_start_datetime",
+   "device_exposure-device_source_concept_id",
+   "device_exposure-device_source_value",
+   "device_exposure-device_type_concept_id",
+   "device_exposure-person_id",
+   "device_exposure-provider_id",
+   "device_exposure-quantity",
+   "device_exposure-unique_device_id",
+   "device_exposure-visit_detail_id",
+   "device_exposure-visit_occurrence_id",
+   "fact_relationship-domain_concept_id_1",
+   "fact_relationship-domain_concept_id_2",
+   "fact_relationship-fact_id_1",
+   "fact_relationship-fact_id_2",
+   "fact_relationship-relationship_concept_id",
+   "location-address_1",
+   "location-address_2",
+   "location-city",
+   "location-county",
+   "location-location_id",
+   "location-location_source_value",
+   "location-state",
+   "location-zip",
+   "note-encoding_concept_id",
+   "note-language_concept_id",
+   "note-note_class_concept_id",
+   "note-note_date",
+   "note-note_datetime",
+   "note-note_event_field_concept_id",
+   "note-note_event_id",
+   "note-note_id",
+   "note-note_source_value",
+   "note-note_text",
+   "note-note_title",
+   "note-note_type_concept_id",
+   "note-person_id",
+   "note-provider_id",
+   "note-visit_detail_id",
+   "note-visit_occurrence_id",
+   "observation-obs_event_field_concept_id",
+   "observation-observation_event_id",
+   "observation-value_as_datetime",
+   "payer_plan_period-family_source_value",
+   "payer_plan_period-payer_plan_period_end_date",
+   "payer_plan_period-payer_plan_period_id",
+   "payer_plan_period-payer_plan_period_start_date",
+   "payer_plan_period-payer_source_value",
+   "payer_plan_period-person_id",
+   "payer_plan_period-plan_source_value",
+   "person-death_datetime",
+   "provider-care_site_id",
+   "provider-dea",
+   "provider-gender_concept_id",
+   "provider-gender_source_concept_id",
+   "provider-gender_source_value",
+   "provider-npi",
+   "provider-provider_id",
+   "provider-provider_name",
+   "provider-provider_source_value",
+   "provider-specialty_concept_id",
+   "provider-specialty_source_concept_id",
+   "provider-specialty_source_value",
+   "provider-year_of_birth",
+   "specimen-anatomic_site_concept_id",
+   "specimen-anatomic_site_source_value",
+   "specimen-disease_status_concept_id",
+   "specimen-disease_status_source_value",
+   "specimen-person_id",
+   "specimen-quantity",
+   "specimen-specimen_concept_id",
+   "specimen-specimen_date",
+   "specimen-specimen_datetime",
+   "specimen-specimen_id",
+   "specimen-specimen_source_id",
+   "specimen-specimen_source_value",
+   "specimen-specimen_type_concept_id",
+   "specimen-unit_concept_id",
+   "specimen-unit_source_value",
+   "visit_detail-admitted_from_concept_id",
+   "visit_detail-admitted_from_source_value",
+   "visit_detail-care_site_id",
+   "visit_detail-discharge_to_concept_id",
+   "visit_detail-discharge_to_source_value",
+   "visit_detail-person_id",
+   "visit_detail-preceding_visit_detail_id",
+   "visit_detail-provider_id",
+   "visit_detail-visit_detail_concept_id",
+   "visit_detail-visit_detail_end_date",
+   "visit_detail-visit_detail_end_datetime",
+   "visit_detail-visit_detail_id",
+   "visit_detail-visit_detail_parent_id",
+   "visit_detail-visit_detail_source_concept_id",
+   "visit_detail-visit_detail_source_value",
+   "visit_detail-visit_detail_start_date",
+   "visit_detail-visit_detail_start_datetime",
+   "visit_detail-visit_detail_type_concept_id",
+   "visit_detail-visit_occurrence_id"
+  ]
+ },
+ "renamed_source": {
+  "encounters-cost": "BASE_ENCOUNTER_COST",
+  "immunizations-cost": "BASE_COST",
+  "medications-cost": "BASE_COST",
+  "procedures-cost": "BASE_COST",
+  "procedures-date": "START",
+  "imaging_studies-body site code": "BODYSITE_CODE",
+  "imaging_studies-body site description": "BODYSITE_DESCRIPTION",
+  "imaging_studies-modality code": "MODALITY_CODE",
+  "imaging_studies-modality description": "MODALITY_DESCRIPTION",
+  "imaging_studies-sop code": "SOP_CODE",
+  "imaging_studies-sop description": "SOP_DESCRIPTION"
+ },
+ "renamed_target": {
+  "visit_occurrence-admitted_from_concept_id": "ADMITTING_SOURCE_CONCEPT_ID",
+  "visit_occurrence-admitted_from_source_value": "ADMITTING_SOURCE_VALUE"
+ },
+ "source_tables": {
+  "allergies": 6,
+  "careplans": 9,
+  "conditions": 6,
+  "encounters": 11,
+  "imaging_studies": 10,
+  "immunizations": 6,
+  "medications": 9,
+  "observations": 8,
+  "organizations": 8,
+  "patients": 20,
+  "procedures": 8,
+  "providers": 9
+ },
+ "target_tables": {
+  "cdm_source": 10,
+  "condition_occurrence": 16,
+  "drug_exposure": 23,
+  "measurement": 20,
+  "observation": 18,
+  "observation_period": 5,
+  "person": 18,
+  "procedure_occurrence": 14,
+  "visit_occurrence": 17
+ },
+ "table_pairs": [
+  [
+   "allergies",
+   "observation"
+  ],
+  [
+   "conditions",
+   "condition_occurrence"
+  ],
+  [
+   "conditions",
+   "drug_exposure"
+  ],
+  [
+   "conditions",
+   "observation"
+  ],
+  [
+   "encounters",
+   "observation_period"
+  ],
+  [
+   "encounters",
+   "visit_occurrence"
+  ],
+  [
+   "immunizations",
+   "drug_exposure"
+  ],
+  [
+   "medications",
+   "drug_exposure"
+  ],
+  [
+   "observations",
+   "measurement"
+  ],
+  [
+   "patients",
+   "person"
+  ],
+  [
+   "procedures",
+   "measurement"
+  ],
+  [
+   "procedures",
+   "procedure_occurrence"
+  ]
+ ],
+ "scenarios": [
+  {
+   "id": "SyntheaOMOP-Full/s20261005",
+   "source_cols": 110,
+   "target_cols": 141,
+   "positives": 104
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_observation__allergies",
+   "source_cols": 6,
+   "target_cols": 18,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_condition_occurrence__conditions",
+   "source_cols": 6,
+   "target_cols": 16,
+   "positives": 9
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_drug_exposure__conditions",
+   "source_cols": 6,
+   "target_cols": 23,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_observation__conditions",
+   "source_cols": 6,
+   "target_cols": 18,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_observation_period__encounters",
+   "source_cols": 11,
+   "target_cols": 5,
+   "positives": 3
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_visit_occurrence__encounters",
+   "source_cols": 11,
+   "target_cols": 17,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_drug_exposure__immunizations",
+   "source_cols": 6,
+   "target_cols": 23,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_drug_exposure__medications",
+   "source_cols": 9,
+   "target_cols": 23,
+   "positives": 14
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_measurement__observations",
+   "source_cols": 8,
+   "target_cols": 20,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_person__patients",
+   "source_cols": 20,
+   "target_cols": 18,
+   "positives": 12
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_measurement__procedures",
+   "source_cols": 8,
+   "target_cols": 20,
+   "positives": 8
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261005_procedure_occurrence__procedures",
+   "source_cols": 8,
+   "target_cols": 14,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Full/s20261006",
+   "source_cols": 110,
+   "target_cols": 141,
+   "positives": 104
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_observation__allergies",
+   "source_cols": 6,
+   "target_cols": 18,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_condition_occurrence__conditions",
+   "source_cols": 6,
+   "target_cols": 16,
+   "positives": 9
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_drug_exposure__conditions",
+   "source_cols": 6,
+   "target_cols": 23,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_observation__conditions",
+   "source_cols": 6,
+   "target_cols": 18,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_observation_period__encounters",
+   "source_cols": 11,
+   "target_cols": 5,
+   "positives": 3
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_visit_occurrence__encounters",
+   "source_cols": 11,
+   "target_cols": 17,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_drug_exposure__immunizations",
+   "source_cols": 6,
+   "target_cols": 23,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_drug_exposure__medications",
+   "source_cols": 9,
+   "target_cols": 23,
+   "positives": 14
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_measurement__observations",
+   "source_cols": 8,
+   "target_cols": 20,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_person__patients",
+   "source_cols": 20,
+   "target_cols": 18,
+   "positives": 12
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_measurement__procedures",
+   "source_cols": 8,
+   "target_cols": 20,
+   "positives": 8
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261006_procedure_occurrence__procedures",
+   "source_cols": 8,
+   "target_cols": 14,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Full/s20261007",
+   "source_cols": 110,
+   "target_cols": 141,
+   "positives": 104
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_observation__allergies",
+   "source_cols": 6,
+   "target_cols": 18,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_condition_occurrence__conditions",
+   "source_cols": 6,
+   "target_cols": 16,
+   "positives": 9
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_drug_exposure__conditions",
+   "source_cols": 6,
+   "target_cols": 23,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_observation__conditions",
+   "source_cols": 6,
+   "target_cols": 18,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_observation_period__encounters",
+   "source_cols": 11,
+   "target_cols": 5,
+   "positives": 3
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_visit_occurrence__encounters",
+   "source_cols": 11,
+   "target_cols": 17,
+   "positives": 7
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_drug_exposure__immunizations",
+   "source_cols": 6,
+   "target_cols": 23,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_drug_exposure__medications",
+   "source_cols": 9,
+   "target_cols": 23,
+   "positives": 14
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_measurement__observations",
+   "source_cols": 8,
+   "target_cols": 20,
+   "positives": 10
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_person__patients",
+   "source_cols": 20,
+   "target_cols": 18,
+   "positives": 12
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_measurement__procedures",
+   "source_cols": 8,
+   "target_cols": 20,
+   "positives": 8
+  },
+  {
+   "id": "SyntheaOMOP-Pair/s20261007_procedure_occurrence__procedures",
+   "source_cols": 8,
+   "target_cols": 14,
+   "positives": 7
+  }
+ ]
+}
